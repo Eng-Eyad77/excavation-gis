@@ -1,0 +1,144 @@
+<div class="workspace">
+  <app-map [panelWidth]="panelOpen() ? 420 : 0" (ready)="onMapReady($event)" />
+  <button type="button" class="panel-toggle" [class.closed]="!panelOpen()" (click)="panelOpen.set(!panelOpen())" [attr.aria-expanded]="panelOpen()">
+    {{ panelOpen() ? 'إخفاء اللوحة ▸' : '◂ إظهار اللوحة' }}
+  </button>
+
+  <aside class="panel" [class.collapsed]="!panelOpen()">
+    <div class="head">
+      <h2>طلب حفر جديد</h2>
+      <button class="link" type="button" (click)="loadDemo()">تحميل مسار مثال</button>
+    </div>
+    <p class="muted agency">الجهة: {{ auth.user()?.agencyName }}</p>
+
+    <!-- ---------------------------------------------------- route input -->
+    <div class="tabs" role="tablist">
+      <button type="button" role="tab" [class.active]="tab() === 'draw'" (click)="tab.set('draw')">ارسم على الخريطة</button>
+      <button type="button" role="tab" [class.active]="tab() === 'utm'" (click)="tab.set('utm')">إدخال إحداثيات UTM</button>
+    </div>
+
+    @if (tab() === 'draw') {
+      <section class="box">
+        @if (drawing()) {
+          <p class="alert info">انقر على الخريطة لإضافة نقاط المسار، ثم انقر نقراً مزدوجاً للإنهاء.</p>
+          <button class="btn outline" type="button" (click)="cancelDrawing()">إلغاء الرسم</button>
+        } @else {
+          <div class="row">
+            <button class="btn primary" type="button" (click)="startDrawing()">{{ route() ? 'إعادة رسم المسار' : 'ارسم مسار الحفر' }}</button>
+            @if (route()) { <button class="btn outline" type="button" (click)="clearRoute()">مسح</button> }
+          </div>
+          @if (route()) { <p class="muted small">انقر على المسار لتعديل نقاطه.</p> }
+        }
+      </section>
+    } @else {
+      <section class="box">
+        <label>
+          <span>نقاط المسار بنظام UTM (المنطقة 37 شمال): سطر لكل نقطة <code dir="ltr">easting,northing</code></span>
+          <textarea rows="5" dir="ltr" [(ngModel)]="utmText" placeholder="easting,northing&#10;519276.44,2379144.56&#10;519280.40,2379093.06"></textarea>
+        </label>
+        @for (e of utmErrors(); track $index) { <p class="alert error">{{ e }}</p> }
+        <div class="row">
+          <button class="btn primary" type="button" (click)="applyUtm()" [disabled]="!operatorsReady()">عرض على الخريطة</button>
+          <button class="link" type="button" (click)="fillUtmExample()">مثال</button>
+        </div>
+      </section>
+    }
+
+    <!-- ---------------------------------------------------- live preview (client, no server call) -->
+    @if (live(); as m) {
+      <section class="box live">
+        <h3>معاينة فورية</h3>
+        <dl>
+          <dt>طول المسار</dt><dd>{{ m.geodesicLengthM | number: '1.1-1' }} م</dd>
+          <dt>مساحة الحفر</dt><dd>{{ m.geodesicAreaM2 | number: '1.0-0' }} م²</dd>
+        </dl>
+      </section>
+    }
+
+    <!-- ---------------------------------------------------- form -->
+    <form class="box form" (ngSubmit)="analyze()">
+      <label>نوع العمل
+        <select name="workType" [(ngModel)]="workType">
+          @for (t of workTypes; track t.value) { <option [value]="t.value">{{ t.label }}</option> }
+        </select>
+      </label>
+      <label>عرض الحفرية (م)
+        <input name="width" type="number" min="0.3" max="10" step="0.1" [(ngModel)]="widthMeters" dir="ltr" />
+      </label>
+      <div class="row two">
+        <label>من<input name="start" type="date" [(ngModel)]="startDate" /></label>
+        <label>إلى<input name="end" type="date" [(ngModel)]="endDate" /></label>
+      </div>
+      <label>ملاحظات<textarea name="notes" rows="2" [(ngModel)]="notes"></textarea></label>
+
+      @if (error()) { <p class="alert error">{{ error() }}</p> }
+
+      <div class="row actions">
+        <button class="btn primary" type="submit" [disabled]="busy() !== null || !request()">
+          {{ busy() === 'analyze' ? 'جارٍ التحليل…' : 'تحليل' }}
+        </button>
+        <button class="btn success" type="button" (click)="submit()" [disabled]="!canSubmit()">
+          {{ busy() === 'submit' ? 'جارٍ التقديم…' : 'تقديم الطلب' }}
+        </button>
+      </div>
+      @if (analysis() && !analysisIsCurrent()) {
+        <p class="muted small">تم تعديل البيانات بعد التحليل. أعد التحليل قبل التقديم.</p>
+      }
+    </form>
+
+    <!-- ---------------------------------------------------- server analysis (Oracle Spatial) -->
+    @if (analysis(); as a) {
+      <section class="results" [class.stale]="!analysisIsCurrent()">
+        <h3>
+          نتيجة التحليل
+          <span class="badge" [class.ok]="a.isValid" [class.bad]="!a.isValid">{{ a.isValid ? 'صالح للتقديم' : 'غير صالح' }}</span>
+        </h3>
+
+        @for (e of a.errors; track $index) { <p class="alert error">{{ e }}</p> }
+
+        @if (a.lengthMeters !== null) {
+          <dl>
+            <dt>طول المسار</dt><dd>{{ a.lengthMeters | number: '1.2-2' }} م</dd>
+            <dt>مساحة الحفر</dt><dd>{{ a.areaSquareMeters | number: '1.2-2' }} م²</dd>
+          </dl>
+        }
+
+        <h4>التعارضات مع طلبات أخرى ({{ a.conflicts.length }})</h4>
+        @for (c of a.conflicts; track c.excavationId; let i = $index) {
+          <button type="button" class="card conflict" [class.selected]="selectedConflict() === i" (click)="selectConflict(i)">
+            <div class="title">#{{ c.excavationId }} · {{ c.agencyName }} · {{ workTypeLabel(c.workType) }} <span class="badge" [class]="c.status">{{ statusLabels[c.status] }}</span></div>
+            <div class="facts">
+              <span><bdi dir="ltr">{{ c.startDate }}</bdi> ← <bdi dir="ltr">{{ c.endDate }}</bdi></span>
+              <span>تداخل <strong>{{ c.overlapDays }}</strong> يوم</span>
+              <span><strong>{{ c.overlapAreaSquareMeters | number: '1.0-1' }}</strong> م²</span>
+            </div>
+            @if (c.digOnce; as d) {
+              <div class="dig-once">
+                <strong>احفر مرة واحدة:</strong> <bdi dir="ltr">{{ d.suggestedStartDate }}</bdi> ← <bdi dir="ltr">{{ d.suggestedEndDate }}</bdi>
+                <p>{{ d.message }}</p>
+              </div>
+            }
+          </button>
+        } @empty {
+          <p class="muted">لا توجد تعارضات.</p>
+        }
+
+        @if (a.pavedRoads.length) {
+          <h4>طرق مسفلتة حديثاً</h4>
+          @for (p of a.pavedRoads; track p.id) {
+            <p class="alert warn">{{ p.name }}: سُفلت في <bdi dir="ltr">{{ p.pavedDate }}</bdi> (قبل {{ p.monthsSincePaving }} شهر)</p>
+          }
+        }
+
+        <h4>مواقع حساسة ضمن 50 م ({{ a.sensitiveSites.length }})</h4>
+        @for (s of a.sensitiveSites; track s.id) {
+          <p class="site"><span class="dot" [class]="s.siteType"></span>{{ s.siteType === 'Hospital' ? 'مستشفى' : 'مدرسة' }}: {{ s.name }} <strong>{{ s.distanceMeters | number: '1.1-1' }} م</strong></p>
+        } @empty {
+          <p class="muted">لا توجد مواقع حساسة قريبة.</p>
+        }
+      </section>
+    }
+  </aside>
+
+  @if (toast()) { <div class="toast" role="status">{{ toast() }}</div> }
+</div>

@@ -1,0 +1,33 @@
+# ---- Secrets (never commit) ----
+appsettings.Development.json
+appsettings.*.local.json
+**/environment.local.ts
+frontend/public/config.local.json
+*.env
+.env*
+
+# ---- .NET ----
+bin/
+obj/
+*.user
+*.suo
+.vs/
+TestResults/
+*.trx
+
+# ---- Angular / Node ----
+node_modules/
+dist/
+.angular/
+coverage/
+npm-debug.log*
+
+# ---- IDE / OS ----
+.vscode/*
+!.vscode/extensions.json
+.idea/
+Thumbs.db
+.DS_Store
+
+# ---- Local DB setup log
+database/setup.log

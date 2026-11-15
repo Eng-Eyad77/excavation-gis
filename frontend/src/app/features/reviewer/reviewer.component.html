@@ -1,0 +1,121 @@
+<div class="workspace">
+  <app-map [panelWidth]="panelOpen() ? 420 : 0" legend="reviewer" (ready)="onMapReady()" (excavationClick)="select($event)" />
+  <button type="button" class="panel-toggle" [class.closed]="!panelOpen()" (click)="panelOpen.set(!panelOpen())" [attr.aria-expanded]="panelOpen()">
+    {{ panelOpen() ? 'إخفاء اللوحة ▸' : '◂ إظهار اللوحة' }}
+  </button>
+
+  <aside class="panel" [class.collapsed]="!panelOpen()">
+    @if (loadingDetail() && !detail()) {
+      <p class="muted">جارٍ تحميل الطلب…</p>
+    } @else if (detail(); as d) {
+      <!-- ---------------------------------------------------- detail -->
+      <div class="head">
+        <button class="link" type="button" (click)="closeDetail()">→ رجوع للقائمة</button>
+        <span class="badge" [class]="d.excavation.status">{{ statusLabels[d.excavation.status] }}</span>
+      </div>
+      <h2>طلب رقم {{ d.excavation.id }}</h2>
+
+      <dl>
+        <dt>الجهة</dt><dd>{{ d.excavation.agencyName }}</dd>
+        <dt>نوع العمل</dt><dd>{{ workTypeLabel(d.excavation.workType) }}</dd>
+        <dt>الفترة</dt><dd><bdi dir="ltr">{{ d.excavation.startDate }}</bdi> ← <bdi dir="ltr">{{ d.excavation.endDate }}</bdi></dd>
+        <dt>العرض</dt><dd>{{ d.excavation.widthMeters }} م</dd>
+        <dt>طول المسار</dt><dd>{{ d.excavation.lengthMeters | number: '1.2-2' }} م</dd>
+        <dt>مساحة الحفر</dt><dd>{{ d.excavation.areaSquareMeters | number: '1.2-2' }} م²</dd>
+        <dt>مقدّم الطلب</dt><dd>{{ d.excavation.createdBy ?? '—' }} · <bdi dir="ltr">{{ d.excavation.createdAt | date: 'yyyy-MM-dd HH:mm' }}</bdi></dd>
+        @if (d.excavation.notes) { <dt>ملاحظات</dt><dd>{{ d.excavation.notes }}</dd> }
+        @if (d.excavation.reviewedAt) {
+          <dt>المراجعة</dt><dd>{{ d.excavation.reviewedBy ?? 'الأمانة (بيانات تجريبية)' }} ·<bdi dir="ltr">{{ d.excavation.reviewedAt | date: 'yyyy-MM-dd HH:mm' }}</bdi></dd>
+          @if (d.excavation.reviewNote) { <dt>ملاحظة المراجع</dt><dd>{{ d.excavation.reviewNote }}</dd> }
+        }
+      </dl>
+
+      <h3>التعارضات الحالية ({{ d.conflicts.length }})</h3>
+      @if (d.excavation.status === 'Rejected') {
+        <p class="alert">طلب مرفوض: لن يُنفَّذ، لذلك لا تُحسب له تعارضات ولا يُحسب ضمن تعارضات الطلبات الأخرى.</p>
+      } @else {
+      @for (c of d.conflicts; track c.excavationId; let i = $index) {
+        <button type="button" class="card conflict" [class.selected]="selectedConflict() === i" (click)="selectConflict(i)">
+          <div class="title">#{{ c.excavationId }} · {{ c.agencyName }} · {{ workTypeLabel(c.workType) }}
+            <span class="badge" [class]="c.status">{{ statusLabels[c.status] }}</span></div>
+          <div class="facts">
+            <span><bdi dir="ltr">{{ c.startDate }}</bdi> ← <bdi dir="ltr">{{ c.endDate }}</bdi></span>
+            <span>تداخل <strong>{{ c.overlapDays }}</strong> يوم</span>
+            <span><strong>{{ c.overlapAreaSquareMeters | number: '1.0-1' }}</strong> م²</span>
+          </div>
+          @if (c.digOnce; as dg) {
+            <div class="dig-once"><strong>احفر مرة واحدة:</strong> <bdi dir="ltr">{{ dg.suggestedStartDate }}</bdi> ← <bdi dir="ltr">{{ dg.suggestedEndDate }}</bdi></div>
+          }
+        </button>
+      } @empty {
+        <p class="alert ok">لا توجد تعارضات مع طلبات أخرى.</p>
+      }
+      }
+
+      @if (error()) { <p class="alert error">{{ error() }}</p> }
+      @if (info()) { <p class="alert ok">{{ info() }}</p> }
+
+      @if (d.excavation.status === 'Pending') {
+        <section class="review">
+          <label>ملاحظة المراجع <span class="muted">(إلزامية عند الرفض)</span>
+            <textarea rows="3" [(ngModel)]="reviewNote" maxlength="1000"></textarea>
+          </label>
+          <div class="row">
+            <button class="btn success" type="button" (click)="approve()" [disabled]="busy() !== null">
+              {{ busy() === 'approve' ? '…' : 'اعتماد' }}
+            </button>
+            <button class="btn danger" type="button" (click)="reject()" [disabled]="busy() !== null">
+              {{ busy() === 'reject' ? '…' : 'رفض' }}
+            </button>
+          </div>
+        </section>
+      }
+    } @else {
+      <!-- ---------------------------------------------------- list -->
+      <h2>مراجعة طلبات الحفر</h2>
+
+      <div class="filters">
+        <label>الحالة
+          <select [(ngModel)]="statusFilter" (ngModelChange)="onFilterChange()">
+            <option value="">الكل</option>
+            <option value="Pending">قيد المراجعة</option>
+            <option value="Approved">معتمد</option>
+            <option value="Rejected">مرفوض</option>
+          </select>
+        </label>
+        <label>الجهة
+          <select [(ngModel)]="agencyFilter" (ngModelChange)="onFilterChange()">
+            <option [ngValue]="null">الكل</option>
+            @for (a of agencies(); track a.id) { <option [ngValue]="a.id">{{ a.nameAr }}</option> }
+          </select>
+        </label>
+      </div>
+
+      @if (error()) { <p class="alert error">{{ error() }}</p> }
+      <p class="muted small">{{ loadingList() ? 'جارٍ التحميل…' : counts().total + ' طلب (' + counts().pending + ' قيد المراجعة)' }} · انقر على طلب في القائمة أو على الخريطة</p>
+
+      <ul class="requests">
+        @for (e of items(); track e.id) {
+          <li>
+            <button type="button" (click)="select(e.id)" [class.active]="selectedId() === e.id">
+              <span class="badge" [class]="e.status">{{ statusLabels[e.status] }}</span>
+              <span class="main"><strong>#{{ e.id }}</strong> {{ e.agencyName }}</span>
+              <span class="sub">{{ workTypeLabel(e.workType) }} · <bdi dir="ltr">{{ e.startDate }}</bdi> ← <bdi dir="ltr">{{ e.endDate }}</bdi></span>
+            </button>
+          </li>
+        } @empty {
+          <li class="muted empty">لا توجد طلبات بهذه الفلاتر.</li>
+        }
+      </ul>
+
+      <!-- ---------------------------------------------------- ArcGIS Feature Service -->
+      <section class="sync">
+        <p class="muted small">يحدّث قائمة المدارس والمستشفيات من طبقة ArcGIS Online.</p>
+        <button class="btn outline" type="button" (click)="syncSensitiveSites()" [disabled]="busy() === 'sync'">
+          {{ busy() === 'sync' ? 'جارٍ المزامنة…' : 'مزامنة المواقع الحساسة من ArcGIS' }}
+        </button>
+        @if (syncMessage(); as m) { <p class="alert" [class.ok]="m.ok" [class.warn]="!m.ok">{{ m.text }}</p> }
+      </section>
+    }
+  </aside>
+</div>

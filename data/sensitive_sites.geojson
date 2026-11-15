@@ -1,0 +1,80 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Abeer Medical Center, Sharafiyah, Jeddah",
+        "site_type": "Hospital",
+        "external_id": "node/14372100502"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.1874476,
+          21.5035696
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Reef Jeddah International School",
+        "site_type": "School",
+        "external_id": "way/160123150"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.1869226,
+          21.508624
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "مدرسة اشبيليا العالمية",
+        "site_type": "School",
+        "external_id": "node/14270344401"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.1873423,
+          21.5067305
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "المدرسة البنجلاديشية العالمية - قسم الإجليزي جدة",
+        "site_type": "School",
+        "external_id": "way/1517803663"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.1832729,
+          21.5239356
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "مدرسة تراعم الزهور العالمية",
+        "site_type": "School",
+        "external_id": "way/1550409855"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.1870558,
+          21.528375
+        ]
+      }
+    }
+  ]
+}

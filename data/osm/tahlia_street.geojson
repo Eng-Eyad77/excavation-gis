@@ -1,0 +1,3375 @@
+{
+ "type": "FeatureCollection",
+ "attribution": "Data © OpenStreetMap contributors, ODbL",
+ "fetched_at": "2026-11-14T19:42:11.927Z",
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 38500585,
+    "alt_name:ar": "شارع التحلية",
+    "alt_name:en": "Tahlia Street",
+    "highway": "primary",
+    "lit": "yes",
+    "maxspeed": "80",
+    "name": "شارع الأمير محمد بن عبدالعزيز",
+    "name:en": "Prince Mohammed bin Abdulaziz Street",
+    "oneway": "yes",
+    "ref": "295",
+    "surface": "asphalt"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      39.1728953,
+      21.5556513
+     ],
+     [
+      39.1697785,
+      21.554761
+     ],
+     [
+      39.167186,
+      21.5540404
+     ],
+     [
+      39.165441,
+      21.5535462
+     ],
+     [
+      39.1644951,
+      21.5532783
+     ],
+     [
+      39.1622107,
+      21.5526121
+     ],
+     [
+      39.1581386,
+      21.551435
+     ],
+     [
+      39.1580524,
+      21.5514101
+     ],
+     [
+      39.1566232,
+      21.550997
+     ],
+     [
+      39.156041,
+      21.550828
+     ],
+     [
+      39.1550888,
+      21.5505223
+     ],
+     [
+      39.1539595,
+      21.5501596
+     ],
+     [
+      39.1530723,
+      21.5499093
+     ],
+     [
+      39.1529545,
+      21.5498735
+     ],
+     [
+      39.1526632,
+      21.5498063
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 41410222,
+    "alt_name:ar": "شارع التحلية",
+    "alt_name:en": "Tahlia Street",
+    "bridge": "yes",
+    "highway": "primary",
+    "layer": "1",
+    "lit": "yes",
+    "maxspeed": "80",
+    "name": "شارع الأمير محمد بن عبدالعزيز",
+    "name:en": "Prince Mohammed bin Abdulaziz Street",
+    "oneway": "yes",
+    "ref": "295",
+    "surface": "asphalt"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      39.1850731,
+      21.5588226
+     ],
+     [
+      39.1873293,
+      21.5593715
+     ],
+     [
+      39.1886307,
+      21.5596506
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 45140246,
+    "alt_name:ar": "شارع التحلية",
+    "alt_name:en": "Tahlia Street",
+    "bridge": "yes",
+    "highway": "primary",
+    "layer": "1",
+    "lit": "yes",
+    "maxspeed": "80",
+    "name": "شارع الأمير محمد بن عبدالعزيز",
+    "name:en": "Prince Mohammed bin Abdulaziz Street",
+    "oneway": "yes",
+    "ref": "295",
+    "surface": "asphalt"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      39.1885656,
+      21.5597786
+     ],
+     [
+      39.1873298,
+      21.5595009
+     ],
+     [
+      39.1850379,
+      21.5589548
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 45140247,
+    "alt_name:ar": "شارع التحلية",
+    "alt_name:en": "Tahlia Street",
+    "highway": "primary",
+    "lit": "yes",
+    "maxspeed": "80",
+    "name": "شارع الأمير محمد بن عبدالعزيز",
+    "name:en": "Prince Mohammed bin Abdulaziz Street",
+    "oneway": "yes",
+    "ref": "295",
+    "surface": "asphalt"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      39.1886307,
+      21.5596506
+     ],
+     [
+      39.1901449,
+      21.5599377
+     ],
+     [
+      39.1916664,
+      21.5602475
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 47720487,
+    "alt_name:ar": "شارع التحلية",
+    "alt_name:en": "Tahlia Street",
+    "bridge": "yes",
+    "highway": "primary",
+    "layer": "1",
+    "lit": "yes",
+    "maxspeed": "80",
+    "name": "شارع الأمير محمد بن عبدالعزيز",
+    "name:en": "Prince Mohammed bin Abdulaziz Street",
+    "oneway": "yes",
+    "ref": "295",
+    "surface": "asphalt"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      39.231826,
+      21.5672881
+     ],
+     [
+      39.2311236,
+      21.5671448
+     ],
+     [
+      39.2305795,
+      21.5670745
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 47720488,
+    "alt_name:ar": "شارع التحلية",
+    "alt_name:en": "Tahlia Street",
+    "highway": "primary",
+    "lit": "yes",
+    "maxspeed": "80",
+    "name": "شارع الأمير محمد بن عبدالعزيز",
+    "name:en": "Prince Mohammed bin Abdulaziz Street",
+    "oneway": "yes",
+    "ref": "295",
+    "surface": "asphalt"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      39.2305795,
+      21.5670745
+     ],
+     [
+      39.2300748,
+      21.5670065
+     ],
+     [
+      39.2295819,
+      21.5669982
+     ],
+     [
+      39.2274687,
+      21.5670237
+     ],
+     [
+      39.2264998,
+      21.5669654
+     ],
+     [
+      39.2258195,
+      21.5668443
+     ],
+     [
+      39.2255328,
+      21.5667883
+     ],
+     [
+      39.2237986,
+      21.5664336
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 47720490,
+    "alt_name:ar": "شارع التحلية",
+    "alt_name:en": "Tahlia Street",
+    "bridge": "yes",
+    "highway": "primary",
+    "layer": "1",
+    "lit": "yes",
+    "maxspeed": "80",
+    "name": "شارع الأمير محمد بن عبدالعزيز",
+    "name:en": "Prince Mohammed bin Abdulaziz Street",
+    "oneway": "yes",
+    "ref": "295",
+    "surface": "asphalt"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      39.2305759,
+      21.5668661
+     ],
+     [
+      39.2311879,
+      21.5669562
+     ],
+     [
+      39.2319349,
+      21.5671003
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 47720491,
+    "alt_name:ar": "شارع التحلية",
+    "alt_name:en": "Tahlia Street",
+    "highway": "primary",
+    "lit": "yes",
+    "maxspeed": "80",
+    "name": "شارع الأمير محمد بن عبدالعزيز",
+    "name:en": "Prince Mohammed bin Abdulaziz Street",
+    "oneway": "yes",
+    "ref": "295",
+    "surface": "asphalt"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      39.2319349,
+      21.5671003
+     ],
+     [
+      39.2330826,
+      21.5674492
+     ],
+     [
+      39.2342457,
+      21.5678472
+     ],
+     [
+      39.2355183,
+      21.5682299
+     ],
+     [
+      39.2368922,
+      21.5685823
+     ],
+     [
+      39.2377696,
+      21.5687823
+     ],
+     [
+      39.2391541,
+      21.569098
+     ],
+     [
+      39.2408269,
+      21.5694079
+     ],
+     [
+      39.2415589,
+      21.5695109
+     ],
+     [
+      39.2416918,
+      21.569512
+     ],
+     [
+      39.2418306,
+      21.5694484
+     ],
+     [
+      39.2419357,
+      21.5693162
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 126831171,
+    "alt_name:ar": "شارع التحلية",
+    "alt_name:en": "Tahlia Street",
+    "highway": "primary",
+    "lit": "yes",
+    "maxspeed": "80",
+    "name": "شارع الأمير محمد بن عبدالعزيز",
+    "name:en": "Prince Mohammed bin Abdulaziz Street",
+    "oneway": "yes",
+    "ref": "295",
+    "surface": "asphalt"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      39.223841,
+      21.5663379
+     ],
+     [
+      39.2258179,
+      21.5666717
+     ],
+     [
+      39.2260188,
+      21.5667018
+     ],
+     [
+      39.2267791,
+      21.5668156
+     ],
+     [
+      39.2271504,
+      21.5668529
+     ],
+     [
+      39.2280355,
+      21.5668641
+     ],
+     [
+      39.2296562,
+      21.5668504
+     ],
+     [
+      39.2305759,
+      21.5668661
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 133914218,
+    "alt_name:ar": "شارع التحلية",
+    "alt_name:en": "Tahlia Street",
+    "highway": "primary",
+    "lit": "yes",
+    "maxspeed": "80",
+    "name": "شارع الأمير محمد بن عبدالعزيز",
+    "name:en": "Prince Mohammed bin Abdulaziz Street",
+    "oneway": "yes",
+    "ref": "295",
+    "surface": "asphalt"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      39.218898,
+      21.5655055
+     ],
+     [
+      39.2179339,
+      21.5653261
+     ],
+     [
+      39.2165057,
+      21.5650607
+     ],
+     [
+      39.215199,
+      21.5648147
+     ],
+     [
+      39.2141335,
+      21.564594
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 133914220,
+    "alt_name:ar": "شارع التحلية",
+    "alt_name:en": "Tahlia Street",
+    "highway": "primary",
+    "lit": "yes",
+    "maxspeed": "80",
+    "name": "شارع الأمير محمد بن عبدالعزيز",
+    "name:en": "Prince Mohammed bin Abdulaziz Street",
+    "oneway": "yes",
+    "ref": "295",
+    "surface": "asphalt"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      39.2141832,
+      21.5645004
+     ],
+     [
+      39.2144554,
+      21.5645471
+     ],
+     [
+      39.2150588,
+      21.5646625
+     ],
+     [
+      39.2164795,
+      21.5649144
+     ],
+     [
+      39.2189353,
+      21.5653839
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 279279058,
+    "alt_name:ar": "شارع التحلية",
+    "alt_name:en": "Tahlia Street",
+    "highway": "primary",
+    "lanes": "4",
+    "lit": "yes",
+    "maxspeed": "80",
+    "name": "شارع الأمير محمد بن عبدالعزيز",
+    "name:en": "Prince Mohammed bin Abdulaziz Street",
+    "oneway": "yes",
+    "ref": "295",
+    "surface": "asphalt"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      39.1300277,
+      21.5469527
+     ],
+     [
+      39.1299966,
+      21.5468639
+     ],
+     [
+      39.130007,
+      21.54679
+     ],
+     [
+      39.1300473,
+      21.5467476
+     ],
+     [
+      39.1301057,
+      21.5467435
+     ],
+     [
+      39.1311166,
+      21.546877
+     ],
+     [
+      39.131354,
+      21.5469083
+     ],
+     [
+      39.1348202,
+      21.5473463
+     ],
+     [
+      39.1349781,
+      21.5473663
+     ],
+     [
+      39.1352036,
+      21.5473948
+     ],
+     [
+      39.1354453,
+      21.5474253
+     ],
+     [
+      39.1361093,
+      21.5475092
+     ],
+     [
+      39.1386665,
+      21.5478323
+     ],
+     [
+      39.1388498,
+      21.5478555
+     ],
+     [
+      39.1390375,
+      21.5478792
+     ],
+     [
+      39.1398596,
+      21.5479774
+     ],
+     [
+      39.1401305,
+      21.5480097
+     ],
+     [
+      39.1412537,
+      21.5481699
+     ],
+     [
+      39.1419079,
+      21.5482459
+     ],
+     [
+      39.1421302,
+      21.5482717
+     ],
+     [
+      39.1423708,
+      21.5482996
+     ],
+     [
+      39.1424753,
+      21.5483151
+     ],
+     [
+      39.1426107,
+      21.5483353
+     ],
+     [
+      39.1427731,
+      21.5483594
+     ],
+     [
+      39.143008,
+      21.5483259
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 447095108,
+    "alt_name": "Prince Mohammed bin Abdulaziz Street",
+    "highway": "primary",
+    "layer": "-1",
+    "name": "شارع التحلية",
+    "name:ar": "شارع التحلية",
+    "name:en": "Tahlia Street",
+    "oneway": "yes",
+    "ref": "295",
+    "tunnel": "yes"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      39.201768,
+      21.5621525
+     ],
+     [
+      39.2024619,
+      21.5622722
+     ],
+     [
+      39.2028516,
+      21.5623498
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 447159114,
+    "alt_name:ar": "شارع التحلية",
+    "alt_name:en": "Tahlia Street",
+    "highway": "primary",
+    "layer": "-1",
+    "lit": "yes",
+    "maxspeed": "80",
+    "name": "شارع الأمير محمد بن عبدالعزيز",
+    "name:en": "Prince Mohammed bin Abdulaziz Street",
+    "oneway": "yes",
+    "ref": "295",
+    "surface": "asphalt",
+    "tunnel": "yes"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      39.2028184,
+      21.5624585
+     ],
+     [
+      39.202242,
+      21.5623503
+     ],
+     [
+      39.2020637,
+      21.5623193
+     ],
+     [
+      39.2019046,
+      21.5622888
+     ],
+     [
+      39.2013362,
+      21.5621786
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 447159115,
+    "alt_name:ar": "شارع التحلية",
+    "alt_name:en": "Tahlia Street",
+    "highway": "primary",
+    "lit": "yes",
+    "maxspeed": "80",
+    "name": "شارع الأمير محمد بن عبدالعزيز",
+    "name:en": "Prince Mohammed bin Abdulaziz Street",
+    "oneway": "yes",
+    "ref": "295",
+    "surface": "asphalt"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      39.2028516,
+      21.5623498
+     ],
+     [
+      39.203341,
+      21.5624331
+     ],
+     [
+      39.2049882,
+      21.5627403
+     ],
+     [
+      39.2066942,
+      21.5630567
+     ],
+     [
+      39.2072539,
+      21.5631837
+     ],
+     [
+      39.2088841,
+      21.5634941
+     ],
+     [
+      39.2097108,
+      21.5636463
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 447159116,
+    "alt_name:ar": "شارع التحلية",
+    "alt_name:en": "Tahlia Street",
+    "highway": "primary",
+    "layer": "-1",
+    "lit": "yes",
+    "maxspeed": "80",
+    "name": "شارع الأمير محمد بن عبدالعزيز",
+    "name:en": "Prince Mohammed bin Abdulaziz Street",
+    "oneway": "yes",
+    "ref": "295",
+    "surface": "asphalt",
+    "tunnel": "yes"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      39.2013523,
+      21.5620659
+     ],
+     [
+      39.201768,
+      21.5621525
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 447159117,
+    "alt_name:ar": "شارع التحلية",
+    "alt_name:en": "Tahlia Street",
+    "highway": "primary",
+    "lit": "yes",
+    "maxspeed": "80",
+    "name": "شارع الأمير محمد بن عبدالعزيز",
+    "name:en": "Prince Mohammed bin Abdulaziz Street",
+    "oneway": "yes",
+    "ref": "295",
+    "surface": "asphalt"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      39.2013362,
+      21.5621786
+     ],
+     [
+      39.1982349,
+      21.5616395
+     ],
+     [
+      39.197197,
+      21.5614358
+     ],
+     [
+      39.1967165,
+      21.5613415
+     ],
+     [
+      39.1962758,
+      21.5612112
+     ],
+     [
+      39.1926929,
+      21.5605432
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 447159126,
+    "alt_name:ar": "شارع التحلية",
+    "alt_name:en": "Tahlia Street",
+    "highway": "primary",
+    "lit": "yes",
+    "maxspeed": "80",
+    "name": "شارع الأمير محمد بن عبدالعزيز",
+    "name:en": "Prince Mohammed bin Abdulaziz Street",
+    "oneway": "yes",
+    "ref": "295",
+    "surface": "asphalt"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      39.2096777,
+      21.5637431
+     ],
+     [
+      39.2091854,
+      21.5636621
+     ],
+     [
+      39.2071606,
+      21.5633012
+     ],
+     [
+      39.2061625,
+      21.5631031
+     ],
+     [
+      39.2056781,
+      21.563007
+     ],
+     [
+      39.2047354,
+      21.56282
+     ],
+     [
+      39.2028184,
+      21.5624585
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 447159127,
+    "alt_name:ar": "شارع التحلية",
+    "alt_name:en": "Tahlia Street",
+    "bridge": "yes",
+    "highway": "primary",
+    "layer": "1",
+    "lit": "yes",
+    "maxspeed": "80",
+    "name": "شارع الأمير محمد بن عبدالعزيز",
+    "name:en": "Prince Mohammed bin Abdulaziz Street",
+    "oneway": "yes",
+    "ref": "295",
+    "surface": "asphalt"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      39.2141335,
+      21.564594
+     ],
+     [
+      39.2096777,
+      21.5637431
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 447159128,
+    "alt_name:ar": "شارع التحلية",
+    "alt_name:en": "Tahlia Street",
+    "bridge": "yes",
+    "highway": "primary",
+    "layer": "1",
+    "lit": "yes",
+    "maxspeed": "80",
+    "name": "شارع الأمير محمد بن عبدالعزيز",
+    "name:en": "Prince Mohammed bin Abdulaziz Street",
+    "oneway": "yes",
+    "ref": "295",
+    "surface": "asphalt"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      39.2097108,
+      21.5636463
+     ],
+     [
+      39.2119017,
+      21.564054
+     ],
+     [
+      39.2141832,
+      21.5645004
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 447159155,
+    "alt_name:ar": "شارع التحلية",
+    "alt_name:en": "Tahlia Street",
+    "bridge": "yes",
+    "highway": "primary",
+    "layer": "1",
+    "lit": "yes",
+    "maxspeed": "80",
+    "name": "شارع الأمير محمد بن عبدالعزيز",
+    "name:en": "Prince Mohammed bin Abdulaziz Street",
+    "oneway": "yes",
+    "ref": "295",
+    "surface": "asphalt"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      39.2237986,
+      21.5664336
+     ],
+     [
+      39.221444,
+      21.5659768
+     ],
+     [
+      39.2212334,
+      21.5659362
+     ],
+     [
+      39.218898,
+      21.5655055
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 447159156,
+    "alt_name:ar": "شارع التحلية",
+    "alt_name:en": "Tahlia Street",
+    "bridge": "yes",
+    "highway": "primary",
+    "layer": "1",
+    "lit": "yes",
+    "maxspeed": "80",
+    "name": "شارع الأمير محمد بن عبدالعزيز",
+    "name:en": "Prince Mohammed bin Abdulaziz Street",
+    "oneway": "yes",
+    "ref": "295",
+    "surface": "asphalt"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      39.2189353,
+      21.5653839
+     ],
+     [
+      39.223841,
+      21.5663379
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 507537709,
+    "alt_name:ar": "شارع التحلية",
+    "alt_name:en": "Tahlia Street",
+    "highway": "primary",
+    "lit": "yes",
+    "maxspeed": "80",
+    "name": "شارع الأمير محمد بن عبدالعزيز",
+    "name:en": "Prince Mohammed bin Abdulaziz Street",
+    "oneway": "yes",
+    "ref": "295",
+    "surface": "asphalt"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      39.2414452,
+      21.5715526
+     ],
+     [
+      39.241465,
+      21.5711159
+     ],
+     [
+      39.2415407,
+      21.5706202
+     ],
+     [
+      39.2416733,
+      21.569939
+     ],
+     [
+      39.2416329,
+      21.5698279
+     ],
+     [
+      39.2415666,
+      21.569757
+     ],
+     [
+      39.2414345,
+      21.5697008
+     ],
+     [
+      39.2407239,
+      21.5695705
+     ],
+     [
+      39.2390805,
+      21.5692508
+     ],
+     [
+      39.2366657,
+      21.5687054
+     ],
+     [
+      39.236353,
+      21.5686344
+     ],
+     [
+      39.2355731,
+      21.5684127
+     ],
+     [
+      39.231826,
+      21.5672881
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 623171198,
+    "highway": "footway",
+    "lit": "yes",
+    "name": "Tahlia walk path",
+    "surface": "paved",
+    "width": "7"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      39.1648189,
+      21.5559615
+     ],
+     [
+      39.1638095,
+      21.5556677
+     ],
+     [
+      39.1616172,
+      21.5550552
+     ],
+     [
+      39.1600143,
+      21.5545863
+     ],
+     [
+      39.157738,
+      21.5539095
+     ],
+     [
+      39.1561328,
+      21.5534369
+     ],
+     [
+      39.1558208,
+      21.5533433
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 646863418,
+    "alt_name": "Prince Mohammed bin Abdulaziz Street",
+    "highway": "primary",
+    "name": "شارع التحلية",
+    "name:ar": "شارع التحلية",
+    "name:en": "Tahlia Street"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      39.1921639,
+      21.5604703
+     ],
+     [
+      39.192273,
+      21.5604162
+     ],
+     [
+      39.1923401,
+      21.5603447
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 646863419,
+    "alt_name": "Prince Mohammed bin Abdulaziz Street",
+    "highway": "primary",
+    "name": "شارع التحلية",
+    "name:ar": "شارع التحلية",
+    "name:en": "Tahlia Street"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      39.1921925,
+      21.5603183
+     ],
+     [
+      39.192273,
+      21.5604162
+     ],
+     [
+      39.1923193,
+      21.5604924
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 646863420,
+    "alt_name": "Prince Mohammed bin Abdulaziz Street",
+    "highway": "secondary",
+    "name": "شارع التحلية",
+    "name:ar": "شارع التحلية",
+    "name:en": "Tahlia Street",
+    "oneway": "yes"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      39.1923401,
+      21.5603447
+     ],
+     [
+      39.1925666,
+      21.560319
+     ],
+     [
+      39.1926062,
+      21.5603235
+     ],
+     [
+      39.1927311,
+      21.5603447
+     ],
+     [
+      39.1929853,
+      21.5603819
+     ],
+     [
+      39.1934606,
+      21.5604557
+     ],
+     [
+      39.1949666,
+      21.5607603
+     ],
+     [
+      39.1958951,
+      21.5609056
+     ],
+     [
+      39.1963864,
+      21.5609935
+     ],
+     [
+      39.1965443,
+      21.5610761
+     ],
+     [
+      39.1967021,
+      21.5611588
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 646863427,
+    "alt_name:ar": "شارع التحلية",
+    "alt_name:en": "Tahlia Street",
+    "highway": "primary",
+    "lit": "yes",
+    "maxspeed": "80",
+    "name": "شارع الأمير محمد بن عبدالعزيز",
+    "name:en": "Prince Mohammed bin Abdulaziz Street",
+    "oneway": "yes",
+    "ref": "295",
+    "surface": "asphalt"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      39.191647,
+      21.5603483
+     ],
+     [
+      39.1895667,
+      21.5599531
+     ],
+     [
+      39.1885656,
+      21.5597786
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 646863429,
+    "alt_name": "Prince Mohammed bin Abdulaziz Street",
+    "highway": "secondary",
+    "name": "شارع التحلية",
+    "name:ar": "شارع التحلية",
+    "name:en": "Tahlia Street",
+    "oneway": "yes"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      39.1967165,
+      21.5613415
+     ],
+     [
+      39.196328,
+      21.5613031
+     ],
+     [
+      39.1961828,
+      21.5612887
+     ],
+     [
+      39.1955261,
+      21.5611751
+     ],
+     [
+      39.1934756,
+      21.5608204
+     ],
+     [
+      39.1927713,
+      21.5607046
+     ],
+     [
+      39.1926841,
+      21.5606794
+     ],
+     [
+      39.1925263,
+      21.5606337
+     ],
+     [
+      39.1923193,
+      21.5604924
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 646863430,
+    "alt_name:ar": "شارع التحلية",
+    "alt_name:en": "Tahlia Street",
+    "highway": "primary",
+    "layer": "-1",
+    "lit": "yes",
+    "maxspeed": "80",
+    "name": "شارع الأمير محمد بن عبدالعزيز",
+    "name:en": "Prince Mohammed bin Abdulaziz Street",
+    "oneway": "yes",
+    "ref": "295",
+    "surface": "asphalt",
+    "tunnel": "yes"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      39.1926929,
+      21.5605432
+     ],
+     [
+      39.191647,
+      21.5603483
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 646863431,
+    "alt_name:ar": "شارع التحلية",
+    "alt_name:en": "Tahlia Street",
+    "highway": "primary",
+    "lit": "yes",
+    "maxspeed": "80",
+    "name": "شارع الأمير محمد بن عبدالعزيز",
+    "name:en": "Prince Mohammed bin Abdulaziz Street",
+    "oneway": "yes",
+    "ref": "295",
+    "surface": "asphalt"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      39.1927105,
+      21.5604632
+     ],
+     [
+      39.1951635,
+      21.5608845
+     ],
+     [
+      39.1967021,
+      21.5611588
+     ],
+     [
+      39.1971879,
+      21.5612599
+     ],
+     [
+      39.1982076,
+      21.5614409
+     ],
+     [
+      39.1996545,
+      21.5617294
+     ],
+     [
+      39.19991,
+      21.5617807
+     ],
+     [
+      39.2013456,
+      21.5620637
+     ],
+     [
+      39.2013523,
+      21.5620659
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 646863432,
+    "alt_name:ar": "شارع التحلية",
+    "alt_name:en": "Tahlia Street",
+    "highway": "primary",
+    "layer": "-1",
+    "lit": "yes",
+    "maxspeed": "80",
+    "name": "شارع الأمير محمد بن عبدالعزيز",
+    "name:en": "Prince Mohammed bin Abdulaziz Street",
+    "oneway": "yes",
+    "ref": "295",
+    "surface": "asphalt",
+    "tunnel": "yes"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      39.1916664,
+      21.5602475
+     ],
+     [
+      39.1927105,
+      21.5604632
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 646863451,
+    "alt_name:ar": "شارع التحلية",
+    "alt_name:en": "Tahlia Street",
+    "highway": "primary",
+    "lit": "yes",
+    "maxspeed": "80",
+    "name": "شارع الأمير محمد بن عبدالعزيز",
+    "name:en": "Prince Mohammed bin Abdulaziz Street",
+    "oneway": "yes",
+    "ref": "295",
+    "surface": "asphalt"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      39.149262,
+      21.5490444
+     ],
+     [
+      39.1494925,
+      21.5491316
+     ],
+     [
+      39.1495907,
+      21.5491687
+     ],
+     [
+      39.1500957,
+      21.5492473
+     ],
+     [
+      39.1501356,
+      21.5492523
+     ],
+     [
+      39.1515003,
+      21.5494223
+     ],
+     [
+      39.1518408,
+      21.5494766
+     ],
+     [
+      39.1521764,
+      21.5495543
+     ],
+     [
+      39.1523002,
+      21.5495872
+     ],
+     [
+      39.1526066,
+      21.5496569
+     ],
+     [
+      39.1526877,
+      21.5496753
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 646863452,
+    "alt_name:ar": "شارع التحلية",
+    "alt_name:en": "Tahlia Street",
+    "highway": "primary",
+    "lit": "yes",
+    "maxspeed": "80",
+    "name": "شارع الأمير محمد بن عبدالعزيز",
+    "name:en": "Prince Mohammed bin Abdulaziz Street",
+    "oneway": "yes",
+    "ref": "295",
+    "surface": "asphalt"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      39.1485634,
+      21.5493256
+     ],
+     [
+      39.1484205,
+      21.549238
+     ],
+     [
+      39.1482613,
+      21.5491974
+     ],
+     [
+      39.1479591,
+      21.5491545
+     ],
+     [
+      39.1472606,
+      21.5490553
+     ],
+     [
+      39.1467438,
+      21.5489819
+     ],
+     [
+      39.1459839,
+      21.548894
+     ],
+     [
+      39.1452686,
+      21.5488073
+     ],
+     [
+      39.1445372,
+      21.5487186
+     ],
+     [
+      39.1442463,
+      21.5486833
+     ],
+     [
+      39.1438695,
+      21.5486376
+     ],
+     [
+      39.1435571,
+      21.5486472
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 646863455,
+    "alt_name:ar": "شارع التحلية",
+    "alt_name:en": "Tahlia Street",
+    "highway": "primary",
+    "lit": "yes",
+    "maxspeed": "80",
+    "name": "شارع الأمير محمد بن عبدالعزيز",
+    "name:en": "Prince Mohammed bin Abdulaziz Street",
+    "oneway": "yes",
+    "ref": "295",
+    "surface": "asphalt"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      39.1436446,
+      21.5483814
+     ],
+     [
+      39.1437734,
+      21.5484491
+     ],
+     [
+      39.1437941,
+      21.548453
+     ],
+     [
+      39.1438946,
+      21.5484717
+     ],
+     [
+      39.1439604,
+      21.5484839
+     ],
+     [
+      39.1445566,
+      21.5485636
+     ],
+     [
+      39.1451229,
+      21.548642
+     ],
+     [
+      39.1456984,
+      21.548703
+     ],
+     [
+      39.1467789,
+      21.5488177
+     ],
+     [
+      39.1473519,
+      21.5488954
+     ],
+     [
+      39.1475047,
+      21.5489161
+     ],
+     [
+      39.1477423,
+      21.5489484
+     ],
+     [
+      39.1478788,
+      21.5489669
+     ],
+     [
+      39.1481139,
+      21.5489977
+     ],
+     [
+      39.1483071,
+      21.549023
+     ],
+     [
+      39.1484817,
+      21.5489893
+     ],
+     [
+      39.1485788,
+      21.5489705
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1075073866,
+    "alt_name:ar": "شارع التحلية",
+    "alt_name:en": "Tahlia Street",
+    "highway": "primary",
+    "lit": "yes",
+    "maxspeed": "80",
+    "name": "شارع الأمير محمد بن عبدالعزيز",
+    "name:en": "Prince Mohammed bin Abdulaziz Street",
+    "oneway": "yes",
+    "ref": "295",
+    "surface": "asphalt"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      39.1429627,
+      21.5485389
+     ],
+     [
+      39.1427884,
+      21.5484962
+     ],
+     [
+      39.1427452,
+      21.5484906
+     ],
+     [
+      39.1423431,
+      21.5484387
+     ],
+     [
+      39.141231,
+      21.5482965
+     ],
+     [
+      39.1391831,
+      21.54805
+     ],
+     [
+      39.1390285,
+      21.5480304
+     ],
+     [
+      39.1372647,
+      21.5478327
+     ],
+     [
+      39.1370364,
+      21.5478043
+     ],
+     [
+      39.1368058,
+      21.5477756
+     ],
+     [
+      39.1360863,
+      21.5476862
+     ],
+     [
+      39.1347971,
+      21.5475301
+     ],
+     [
+      39.1300277,
+      21.5469527
+     ],
+     [
+      39.1298867,
+      21.5469356
+     ],
+     [
+      39.1296657,
+      21.5469428
+     ],
+     [
+      39.1294911,
+      21.5469787
+     ],
+     [
+      39.1293241,
+      21.5470781
+     ],
+     [
+      39.1291233,
+      21.5472477
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1104788988,
+    "alt_name:ar": "شارع التحلية",
+    "alt_name:en": "Tahlia Street",
+    "highway": "primary",
+    "lit": "yes",
+    "maxspeed": "80",
+    "name": "شارع الأمير محمد بن عبدالعزيز",
+    "name:en": "Prince Mohammed bin Abdulaziz Street",
+    "oneway": "yes",
+    "ref": "295",
+    "surface": "asphalt"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      39.1485788,
+      21.5489705
+     ],
+     [
+      39.1487671,
+      21.5488725
+     ],
+     [
+      39.1489626,
+      21.548865
+     ],
+     [
+      39.1491459,
+      21.5489306
+     ],
+     [
+      39.149262,
+      21.5490444
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1104788989,
+    "alt_name:ar": "شارع التحلية",
+    "alt_name:en": "Tahlia Street",
+    "highway": "primary",
+    "lit": "yes",
+    "maxspeed": "80",
+    "name": "شارع الأمير محمد بن عبدالعزيز",
+    "name:en": "Prince Mohammed bin Abdulaziz Street",
+    "oneway": "yes",
+    "ref": "295",
+    "surface": "asphalt"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      39.1492116,
+      21.5494078
+     ],
+     [
+      39.1490744,
+      21.5494932
+     ],
+     [
+      39.1488992,
+      21.5495183
+     ],
+     [
+      39.148895,
+      21.5495189
+     ],
+     [
+      39.148683,
+      21.5494443
+     ],
+     [
+      39.1485634,
+      21.5493256
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1486502045,
+    "alt_name:ar": "شارع التحلية",
+    "alt_name:en": "Tahlia Street",
+    "highway": "primary",
+    "lit": "yes",
+    "maxspeed": "80",
+    "name": "شارع الأمير محمد بن عبدالعزيز",
+    "name:en": "Prince Mohammed bin Abdulaziz Street",
+    "oneway": "yes",
+    "ref": "295",
+    "surface": "asphalt"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      39.1850379,
+      21.5589548
+     ],
+     [
+      39.1842371,
+      21.5587527
+     ],
+     [
+      39.1824713,
+      21.5582963
+     ],
+     [
+      39.1820326,
+      21.5581699
+     ],
+     [
+      39.1784813,
+      21.5572132
+     ],
+     [
+      39.177711,
+      21.5570026
+     ],
+     [
+      39.1774858,
+      21.5569278
+     ],
+     [
+      39.1744253,
+      21.5560761
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1486502046,
+    "alt_name:ar": "شارع التحلية",
+    "alt_name:en": "Tahlia Street",
+    "highway": "primary",
+    "layer": "-1",
+    "lit": "yes",
+    "maxspeed": "80",
+    "name": "شارع الأمير محمد بن عبدالعزيز",
+    "name:en": "Prince Mohammed bin Abdulaziz Street",
+    "oneway": "yes",
+    "ref": "295",
+    "surface": "asphalt",
+    "tunnel": "yes"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      39.1744253,
+      21.5560761
+     ],
+     [
+      39.1738583,
+      21.555921
+     ],
+     [
+      39.1735349,
+      21.5558305
+     ],
+     [
+      39.1728953,
+      21.5556513
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1486502047,
+    "alt_name:ar": "شارع التحلية",
+    "alt_name:en": "Tahlia Street",
+    "highway": "primary",
+    "lit": "yes",
+    "maxspeed": "80",
+    "name": "شارع الأمير محمد بن عبدالعزيز",
+    "name:en": "Prince Mohammed bin Abdulaziz Street",
+    "oneway": "yes",
+    "ref": "295",
+    "surface": "asphalt"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      39.1744603,
+      21.5559809
+     ],
+     [
+      39.1770126,
+      21.5566912
+     ],
+     [
+      39.1777593,
+      21.556895
+     ],
+     [
+      39.1781967,
+      21.5570144
+     ],
+     [
+      39.1800399,
+      21.5575107
+     ],
+     [
+      39.181248,
+      21.5578143
+     ],
+     [
+      39.1824675,
+      21.5581208
+     ],
+     [
+      39.1829192,
+      21.5582404
+     ],
+     [
+      39.1834429,
+      21.5583756
+     ],
+     [
+      39.1850731,
+      21.5588226
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1486502048,
+    "alt_name:ar": "شارع التحلية",
+    "alt_name:en": "Tahlia Street",
+    "highway": "primary",
+    "layer": "-1",
+    "lit": "yes",
+    "maxspeed": "80",
+    "name": "شارع الأمير محمد بن عبدالعزيز",
+    "name:en": "Prince Mohammed bin Abdulaziz Street",
+    "oneway": "yes",
+    "ref": "295",
+    "surface": "asphalt",
+    "tunnel": "yes"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      39.1729255,
+      21.5555482
+     ],
+     [
+      39.1737804,
+      21.5557892
+     ],
+     [
+      39.1744603,
+      21.5559809
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1492421519,
+    "alt_name:ar": "شارع التحلية",
+    "alt_name:en": "Tahlia Street",
+    "highway": "primary",
+    "lit": "yes",
+    "maxspeed": "80",
+    "name": "شارع الأمير محمد بن عبدالعزيز",
+    "name:en": "Prince Mohammed bin Abdulaziz Street",
+    "oneway": "yes",
+    "ref": "295",
+    "surface": "asphalt"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      39.1526877,
+      21.5496753
+     ],
+     [
+      39.152859,
+      21.5497136
+     ],
+     [
+      39.1531249,
+      21.5497896
+     ],
+     [
+      39.1532102,
+      21.549814
+     ],
+     [
+      39.1540421,
+      21.5500397
+     ],
+     [
+      39.15416,
+      21.5500716
+     ],
+     [
+      39.1544882,
+      21.5501607
+     ],
+     [
+      39.1550903,
+      21.550324
+     ],
+     [
+      39.1551305,
+      21.550336
+     ],
+     [
+      39.1557621,
+      21.5505192
+     ],
+     [
+      39.1577833,
+      21.5511056
+     ],
+     [
+      39.158523,
+      21.5513202
+     ],
+     [
+      39.1585717,
+      21.5513343
+     ],
+     [
+      39.1592235,
+      21.5515234
+     ],
+     [
+      39.1619013,
+      21.5523522
+     ],
+     [
+      39.1626338,
+      21.5525689
+     ],
+     [
+      39.1632702,
+      21.5527524
+     ],
+     [
+      39.1634447,
+      21.5527861
+     ],
+     [
+      39.1653209,
+      21.5533341
+     ],
+     [
+      39.1658524,
+      21.5534894
+     ],
+     [
+      39.1660961,
+      21.55356
+     ],
+     [
+      39.1667804,
+      21.5537572
+     ],
+     [
+      39.1673453,
+      21.5539042
+     ],
+     [
+      39.1677678,
+      21.5540409
+     ],
+     [
+      39.1678356,
+      21.554063
+     ],
+     [
+      39.168555,
+      21.5542724
+     ],
+     [
+      39.1698161,
+      21.5546441
+     ],
+     [
+      39.1706419,
+      21.5548875
+     ],
+     [
+      39.17231,
+      21.5553552
+     ],
+     [
+      39.1729255,
+      21.5555482
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1492421522,
+    "alt_name:ar": "شارع التحلية",
+    "alt_name:en": "Tahlia Street",
+    "highway": "primary",
+    "lit": "yes",
+    "maxspeed": "80",
+    "name": "شارع الأمير محمد بن عبدالعزيز",
+    "name:en": "Prince Mohammed bin Abdulaziz Street",
+    "oneway": "yes",
+    "ref": "295",
+    "surface": "asphalt"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      39.1526632,
+      21.5498063
+     ],
+     [
+      39.152318,
+      21.549728
+     ],
+     [
+      39.1519381,
+      21.5496585
+     ],
+     [
+      39.1500939,
+      21.5493849
+     ],
+     [
+      39.1499878,
+      21.5493681
+     ],
+     [
+      39.1495401,
+      21.5493317
+     ],
+     [
+      39.1494268,
+      21.549358
+     ],
+     [
+      39.1492116,
+      21.5494078
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1498309514,
+    "crossing": "unmarked",
+    "crossing:island": "no",
+    "crossing:markings": "no",
+    "footway": "crossing",
+    "highway": "footway",
+    "lit": "yes",
+    "name": "Tahlia walk path",
+    "surface": "paved",
+    "width": "7"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      39.1702347,
+      21.5576586
+     ],
+     [
+      39.1702567,
+      21.5576651
+     ],
+     [
+      39.1703831,
+      21.5577029
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1498309515,
+    "highway": "footway",
+    "lit": "yes",
+    "name": "Tahlia walk path",
+    "surface": "paved",
+    "width": "7"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      39.1703831,
+      21.5577029
+     ],
+     [
+      39.1721878,
+      21.5582418
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1498309516,
+    "crossing": "unmarked",
+    "crossing:island": "no",
+    "crossing:markings": "no",
+    "footway": "crossing",
+    "highway": "footway",
+    "lit": "yes",
+    "name": "Tahlia walk path",
+    "surface": "paved",
+    "width": "7"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      39.1704403,
+      21.5575493
+     ],
+     [
+      39.1703382,
+      21.5575217
+     ],
+     [
+      39.1702952,
+      21.5575101
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1498309517,
+    "highway": "footway",
+    "lit": "yes",
+    "name": "Tahlia walk path",
+    "surface": "paved",
+    "width": "7"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      39.1696021,
+      21.5574697
+     ],
+     [
+      39.1702347,
+      21.5576586
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1498309518,
+    "highway": "footway",
+    "lit": "yes",
+    "name": "Tahlia walk path",
+    "surface": "paved",
+    "width": "7"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      39.1702952,
+      21.5575101
+     ],
+     [
+      39.1696342,
+      21.5573315
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1498309519,
+    "crossing": "unmarked",
+    "crossing:markings": "no",
+    "footway": "crossing",
+    "highway": "footway",
+    "lit": "yes",
+    "name": "Tahlia walk path",
+    "surface": "paved",
+    "width": "7"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      39.1696342,
+      21.5573315
+     ],
+     [
+      39.1695699,
+      21.5573141
+     ],
+     [
+      39.1694312,
+      21.5572767
+     ],
+     [
+      39.1693991,
+      21.557268
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1498309520,
+    "crossing": "unmarked",
+    "crossing:markings": "no",
+    "footway": "crossing",
+    "highway": "footway",
+    "lit": "yes",
+    "name": "Tahlia walk path",
+    "surface": "paved",
+    "width": "7"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      39.1693379,
+      21.5573908
+     ],
+     [
+      39.1693889,
+      21.557406
+     ],
+     [
+      39.1695256,
+      21.5574468
+     ],
+     [
+      39.1696021,
+      21.5574697
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1498309521,
+    "highway": "footway",
+    "lit": "yes",
+    "name": "Tahlia walk path",
+    "surface": "paved",
+    "width": "7"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      39.1689265,
+      21.5572679
+     ],
+     [
+      39.1693379,
+      21.5573908
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1498309522,
+    "crossing": "unmarked",
+    "crossing:markings": "no",
+    "footway": "crossing",
+    "highway": "footway",
+    "lit": "yes",
+    "name": "Tahlia walk path",
+    "surface": "paved",
+    "width": "7"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      39.1687799,
+      21.5572242
+     ],
+     [
+      39.1688336,
+      21.5572402
+     ],
+     [
+      39.1688757,
+      21.5572527
+     ],
+     [
+      39.1689265,
+      21.5572679
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1498309523,
+    "highway": "footway",
+    "lit": "yes",
+    "name": "Tahlia walk path",
+    "surface": "paved",
+    "width": "7"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      39.1693991,
+      21.557268
+     ],
+     [
+      39.1689615,
+      21.5571498
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1498309524,
+    "crossing": "unmarked",
+    "crossing:markings": "no",
+    "footway": "crossing",
+    "highway": "footway",
+    "lit": "yes",
+    "name": "Tahlia walk path",
+    "surface": "paved",
+    "width": "7"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      39.1689615,
+      21.5571498
+     ],
+     [
+      39.1688599,
+      21.5571223
+     ],
+     [
+      39.168813,
+      21.5571097
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1498309525,
+    "highway": "footway",
+    "lit": "yes",
+    "name": "Tahlia walk path",
+    "surface": "paved",
+    "width": "7"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      39.1652243,
+      21.5561684
+     ],
+     [
+      39.1663614,
+      21.5564996
+     ],
+     [
+      39.1684057,
+      21.5571124
+     ],
+     [
+      39.1687799,
+      21.5572242
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1498309526,
+    "highway": "footway",
+    "lit": "yes",
+    "name": "Tahlia walk path",
+    "surface": "paved",
+    "width": "7"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      39.168813,
+      21.5571097
+     ],
+     [
+      39.1677305,
+      21.5568172
+     ],
+     [
+      39.1652267,
+      21.5560788
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1498309527,
+    "crossing": "unmarked",
+    "crossing:markings": "no",
+    "footway": "crossing",
+    "highway": "footway",
+    "lit": "yes",
+    "name": "Tahlia walk path",
+    "surface": "paved",
+    "width": "7"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      39.1652267,
+      21.5560788
+     ],
+     [
+      39.1651634,
+      21.5560617
+     ],
+     [
+      39.1651088,
+      21.5560458
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1498309528,
+    "crossing": "unmarked",
+    "crossing:markings": "no",
+    "footway": "crossing",
+    "highway": "footway",
+    "lit": "yes",
+    "name": "Tahlia walk path",
+    "surface": "paved",
+    "width": "7"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      39.1650778,
+      21.5561257
+     ],
+     [
+      39.1651192,
+      21.5561378
+     ],
+     [
+      39.1652243,
+      21.5561684
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1498309529,
+    "highway": "footway",
+    "lit": "yes",
+    "name": "Tahlia walk path",
+    "surface": "paved",
+    "width": "7"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      39.164929,
+      21.5560823
+     ],
+     [
+      39.1650778,
+      21.5561257
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1498309530,
+    "crossing": "unmarked",
+    "crossing:island": "no",
+    "crossing:markings": "no",
+    "footway": "crossing",
+    "highway": "footway",
+    "lit": "yes",
+    "name": "Tahlia walk path",
+    "surface": "paved",
+    "width": "7"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      39.1647915,
+      21.5560423
+     ],
+     [
+      39.1648602,
+      21.5560623
+     ],
+     [
+      39.164929,
+      21.5560823
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1498309531,
+    "highway": "footway",
+    "lit": "yes",
+    "name": "Tahlia walk path",
+    "surface": "paved",
+    "width": "7"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      39.1651088,
+      21.5560458
+     ],
+     [
+      39.1649625,
+      21.5560032
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1498309532,
+    "crossing": "unmarked",
+    "crossing:island": "no",
+    "crossing:markings": "no",
+    "footway": "crossing",
+    "highway": "footway",
+    "lit": "yes",
+    "name": "Tahlia walk path",
+    "surface": "paved",
+    "width": "7"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      39.1649625,
+      21.5560032
+     ],
+     [
+      39.1648678,
+      21.5559757
+     ],
+     [
+      39.1648189,
+      21.5559615
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1498309533,
+    "highway": "footway",
+    "lit": "yes",
+    "name": "Tahlia walk path",
+    "surface": "paved",
+    "width": "7"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      39.1558007,
+      21.5534334
+     ],
+     [
+      39.1572289,
+      21.5538603
+     ],
+     [
+      39.1593145,
+      21.5544464
+     ],
+     [
+      39.1605919,
+      21.5548056
+     ],
+     [
+      39.1619561,
+      21.5552102
+     ],
+     [
+      39.1630172,
+      21.5555467
+     ],
+     [
+      39.1647775,
+      21.5560382
+     ],
+     [
+      39.1647915,
+      21.5560423
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1498309534,
+    "highway": "footway",
+    "lit": "yes",
+    "name": "Tahlia walk path",
+    "surface": "paved",
+    "width": "7"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      39.1556843,
+      21.5533024
+     ],
+     [
+      39.1537394,
+      21.5527195
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1498309535,
+    "crossing": "unmarked",
+    "crossing:markings": "no",
+    "footway": "crossing",
+    "highway": "footway",
+    "lit": "yes",
+    "name": "Tahlia walk path",
+    "surface": "paved",
+    "width": "7"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      39.1558208,
+      21.5533433
+     ],
+     [
+      39.1557326,
+      21.5533169
+     ],
+     [
+      39.1556843,
+      21.5533024
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1498309536,
+    "crossing": "unmarked",
+    "crossing:markings": "no",
+    "footway": "crossing",
+    "highway": "footway",
+    "lit": "yes",
+    "name": "Tahlia walk path",
+    "surface": "paved",
+    "width": "7"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      39.1556628,
+      21.5533924
+     ],
+     [
+      39.1557077,
+      21.5534056
+     ],
+     [
+      39.1558007,
+      21.5534334
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1498309537,
+    "highway": "footway",
+    "lit": "yes",
+    "name": "Tahlia walk path",
+    "surface": "paved",
+    "width": "7"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      39.1536827,
+      21.5528192
+     ],
+     [
+      39.1545586,
+      21.5530776
+     ],
+     [
+      39.1556628,
+      21.5533924
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1498309538,
+    "crossing": "unmarked",
+    "crossing:markings": "no",
+    "footway": "crossing",
+    "highway": "footway",
+    "lit": "yes",
+    "name": "Tahlia walk path",
+    "surface": "paved",
+    "width": "7"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      39.1535563,
+      21.552782
+     ],
+     [
+      39.1536112,
+      21.5527981
+     ],
+     [
+      39.1536827,
+      21.5528192
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1498309539,
+    "highway": "footway",
+    "lit": "yes",
+    "name": "Tahlia walk path",
+    "surface": "paved",
+    "width": "7"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      39.1536094,
+      21.5526805
+     ],
+     [
+      39.1527015,
+      21.5524084
+     ],
+     [
+      39.1526885,
+      21.5525255
+     ],
+     [
+      39.1535563,
+      21.552782
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1498309540,
+    "crossing": "unmarked",
+    "crossing:markings": "no",
+    "footway": "crossing",
+    "highway": "footway",
+    "lit": "yes",
+    "name": "Tahlia walk path",
+    "surface": "paved",
+    "width": "7"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      39.1537394,
+      21.5527195
+     ],
+     [
+      39.1536721,
+      21.5526993
+     ],
+     [
+      39.1536094,
+      21.5526805
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1498309541,
+    "highway": "footway",
+    "lit": "yes",
+    "name": "Tahlia walk path",
+    "surface": "paved",
+    "width": "7"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      39.1722267,
+      21.5580319
+     ],
+     [
+      39.1704403,
+      21.5575493
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1498309542,
+    "crossing": "unmarked",
+    "crossing:markings": "no",
+    "footway": "crossing",
+    "highway": "footway",
+    "lit": "yes",
+    "name": "Tahlia walk path",
+    "surface": "paved",
+    "width": "7"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      39.1723764,
+      21.5580723
+     ],
+     [
+      39.1722888,
+      21.5580487
+     ],
+     [
+      39.1722267,
+      21.5580319
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1498309543,
+    "highway": "footway",
+    "lit": "yes",
+    "name": "Tahlia walk path",
+    "surface": "paved",
+    "width": "7"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      39.1723117,
+      21.5582788
+     ],
+     [
+      39.1724283,
+      21.5583137
+     ],
+     [
+      39.1724901,
+      21.558103
+     ],
+     [
+      39.1723764,
+      21.5580723
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1498309544,
+    "crossing": "unmarked",
+    "crossing:markings": "no",
+    "footway": "crossing",
+    "highway": "footway",
+    "lit": "yes",
+    "name": "Tahlia walk path",
+    "surface": "paved",
+    "width": "7"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      39.1721878,
+      21.5582418
+     ],
+     [
+      39.1722442,
+      21.5582587
+     ],
+     [
+      39.1723117,
+      21.5582788
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1546797156,
+    "alt_name:ar": "شارع التحلية",
+    "alt_name:en": "Tahlia Street",
+    "highway": "primary",
+    "lit": "yes",
+    "maxspeed": "80",
+    "name": "شارع الأمير محمد بن عبدالعزيز",
+    "name:en": "Prince Mohammed bin Abdulaziz Street",
+    "oneway": "yes",
+    "ref": "295",
+    "surface": "asphalt"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      39.2420009,
+      21.5698085
+     ],
+     [
+      39.2418469,
+      21.5697792
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1546797157,
+    "alt_name:ar": "شارع التحلية",
+    "alt_name:en": "Tahlia Street",
+    "highway": "primary",
+    "lit": "yes",
+    "maxspeed": "80",
+    "name": "شارع الأمير محمد بن عبدالعزيز",
+    "name:en": "Prince Mohammed bin Abdulaziz Street",
+    "oneway": "yes",
+    "ref": "295",
+    "surface": "asphalt"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      39.2415589,
+      21.5695109
+     ],
+     [
+      39.2417431,
+      21.5695451
+     ],
+     [
+      39.2418864,
+      21.5695718
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1546797876,
+    "alt_name:ar": "شارع التحلية",
+    "alt_name:en": "Tahlia Street",
+    "highway": "primary",
+    "lit": "yes",
+    "maxspeed": "80",
+    "name": "شارع الأمير محمد بن عبدالعزيز",
+    "name:en": "Prince Mohammed bin Abdulaziz Street",
+    "oneway": "yes",
+    "ref": "295",
+    "surface": "asphalt"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      39.2418864,
+      21.5695718
+     ],
+     [
+      39.2420462,
+      21.5696015
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1546797881,
+    "alt_name:ar": "شارع التحلية",
+    "alt_name:en": "Tahlia Street",
+    "highway": "primary",
+    "lit": "yes",
+    "maxspeed": "80",
+    "name": "شارع الأمير محمد بن عبدالعزيز",
+    "name:en": "Prince Mohammed bin Abdulaziz Street",
+    "oneway": "yes",
+    "ref": "295",
+    "surface": "asphalt"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      39.2418469,
+      21.5697792
+     ],
+     [
+      39.2414345,
+      21.5697008
+     ]
+    ]
+   }
+  }
+ ]
+}

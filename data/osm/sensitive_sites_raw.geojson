@@ -1,0 +1,3175 @@
+{
+ "type": "FeatureCollection",
+ "attribution": "Data © OpenStreetMap contributors, ODbL",
+ "fetched_at": "2026-11-14T19:57:50.655Z",
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "node",
+    "osm_id": 498886460,
+    "amenity": "hospital",
+    "capacity": "371",
+    "emergency": "yes",
+    "name": "New Jeddah hospital"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.1781249,
+     21.5320022
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "node",
+    "osm_id": 560598875,
+    "amenity": "hospital",
+    "name": "Saudi American Polyclinic"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.1577749,
+     21.5285939
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "node",
+    "osm_id": 1096899963,
+    "amenity": "hospital",
+    "name": "Badruhddin Hospital"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.1694832,
+     21.6124045
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "node",
+    "osm_id": 1497744277,
+    "addr:street": "Falasteen Street",
+    "amenity": "hospital",
+    "jpoi_id": "100524",
+    "name": "Dr. Soliman Fakeeh Hospital (12,588 patient )",
+    "phone": "+966 12 6655000"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.1678509,
+     21.5256557
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "node",
+    "osm_id": 2200288160,
+    "amenity": "school"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.2048548,
+     21.5540492
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "node",
+    "osm_id": 3283499836,
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Saudi Airlines Medical Services"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.1271364,
+     21.5556286
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "node",
+    "osm_id": 3283502413,
+    "amenity": "hospital",
+    "name": "Dr. Samir Abbas Hospital"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.1242282,
+     21.5538873
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "node",
+    "osm_id": 3283507122,
+    "amenity": "hospital",
+    "name": "Al Mashfa Hospital"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.1201183,
+     21.6025772
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "node",
+    "osm_id": 4247755890,
+    "addr:postcode": "23212",
+    "addr:street": "Al Mansurah",
+    "amenity": "school",
+    "name": "Zahrat Al Sahraa Intl. School",
+    "opening_hours": "Su-Th 07:00-14:00",
+    "phone": "0126671199",
+    "website": "zsi.sch.sa",
+    "wheelchair": "limited"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.1605183,
+     21.5184032
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "node",
+    "osm_id": 4247755891,
+    "addr:postcode": "23213",
+    "addr:street": "Fayd AR Rida",
+    "amenity": "school",
+    "name": "Global International School",
+    "opening_hours": "Su-Th 07:00-14:00",
+    "phone": "0126523444",
+    "website": "https://www.gis.sch.sa/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.1725036,
+     21.5114364
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "node",
+    "osm_id": 4248784931,
+    "amenity": "hospital",
+    "name": "مركز صحة السلامه"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.1537103,
+     21.5914054
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "node",
+    "osm_id": 4270118289,
+    "amenity": "school",
+    "name": "cuto"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.1321275,
+     21.6000618
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "node",
+    "osm_id": 4277679492,
+    "addr:street": "Mawakib An Nasr",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "مستوصف"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.1563981,
+     21.5861609
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "node",
+    "osm_id": 4277696289,
+    "amenity": "hospital",
+    "name": "مستشفى الأنصار",
+    "name:en": "Ansar hospital",
+    "name:fr": "Ansar hospital"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.1542824,
+     21.5836538
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "node",
+    "osm_id": 4316412292,
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "مستشفى الجدعاني"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.2080678,
+     21.5842573
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "node",
+    "osm_id": 4316412294,
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "مستوصف شار الطبي"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.2068981,
+     21.5429899
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "node",
+    "osm_id": 4316435495,
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "مستوصف ابن سيناء الطبي"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.2103131,
+     21.5587543
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "node",
+    "osm_id": 4317799789,
+    "amenity": "school",
+    "name": "مدرسة دلة لتعليم القيادة"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.2233054,
+     21.5414416
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "node",
+    "osm_id": 4319958593,
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "المستشفى السعودي",
+    "name:ar": "المستشفى السعودي",
+    "name:en": "Saudi hospittal"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.2094434,
+     21.5412085
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "node",
+    "osm_id": 4340873693,
+    "amenity": "hospital",
+    "name": "عرفان",
+    "name:ar": "عرفان",
+    "name:en": "Dr. Erfan Hospital"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.179017,
+     21.576128
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "node",
+    "osm_id": 4348589893,
+    "amenity": "school",
+    "name": "AL Wadi International school"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.1917657,
+     21.5780745
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "node",
+    "osm_id": 4380165891,
+    "amenity": "school",
+    "name": "مدارس الذكر الحكيم الاهلية",
+    "name:ar": "مدارس الذكر الحكيم الاهلية"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.1433167,
+     21.6197879
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "node",
+    "osm_id": 4465931896,
+    "amenity": "school",
+    "name:en": "indian embasi boys section"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.2259078,
+     21.5497588
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "node",
+    "osm_id": 4555330560,
+    "addr:city": "Jeddah",
+    "addr:postcode": "23423",
+    "addr:street": "Al Farh",
+    "amenity": "school",
+    "name": "Al-Thager School Complex"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.137894,
+     21.5644278
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "node",
+    "osm_id": 4873386621,
+    "amenity": "school",
+    "name": "المعهد العلمي الرابع",
+    "name:ar": "المعهد العلمي الرابع"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.187732,
+     21.5505351
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "node",
+    "osm_id": 4888205421,
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "مستشفى الولادة والأطفال",
+    "name:en": "hospital of birth & children"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.1728196,
+     21.5387892
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "node",
+    "osm_id": 4970796923,
+    "amenity": "school",
+    "name": "مدرسة منارات جدة",
+    "name:ar": "مدرسة منارات جدة"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.2174967,
+     21.5406126
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "node",
+    "osm_id": 4973839523,
+    "amenity": "school",
+    "name": "جامعه جده",
+    "name:ar": "جامعه جده",
+    "name:en": "العربيها"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.1747366,
+     21.5701336
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "node",
+    "osm_id": 5410423752,
+    "amenity": "hospital",
+    "emergency": "yes",
+    "healthcare": "hospital",
+    "name": "مركز اسعاف النسيم"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.2344814,
+     21.5166617
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "node",
+    "osm_id": 6868293085,
+    "addr:street": "المؤلفين",
+    "amenity": "school",
+    "name": "ثانوية عثمان بن عفان"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.2210381,
+     21.5452247
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "node",
+    "osm_id": 7280279786,
+    "amenity": "school",
+    "name:en": "Faculty of Arts and Sciences",
+    "tourism": "museum"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.1833221,
+     21.57887
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "node",
+    "osm_id": 7392395975,
+    "amenity": "school"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.1347383,
+     21.6078698
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "node",
+    "osm_id": 8901663781,
+    "amenity": "school",
+    "check_date": "2026-01-10",
+    "name": "الروضة الثامنة ( 8 )"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.1662855,
+     21.5910387
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "node",
+    "osm_id": 8901668023,
+    "amenity": "school",
+    "check_date": "2026-01-10",
+    "name": "المدرسة السابعة عشر ( 17 ) الثانوية"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.1661256,
+     21.5916876
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "node",
+    "osm_id": 8901668024,
+    "amenity": "school",
+    "check_date": "2026-01-10",
+    "name": "المدرسة الثالثة والأربعون ( 43 ) المتوسطة"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.1659277,
+     21.5914092
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "node",
+    "osm_id": 9485346533,
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "الهلال الاحمر السعودي"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.2194036,
+     21.6003398
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "node",
+    "osm_id": 10009091617,
+    "amenity": "school",
+    "name": "المتوسطة الرابعة لتحفيظ القران الكريم",
+    "phone": "012 676 7519"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.2360484,
+     21.5381144
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "node",
+    "osm_id": 10009095417,
+    "amenity": "school",
+    "name": "الثامنة والعشرون الثانوية بنات - مسائي"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.2360049,
+     21.5382123
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "node",
+    "osm_id": 10009099117,
+    "amenity": "school",
+    "name": "10th Elementary School for Holy Quran",
+    "operator:type": "religious",
+    "religion": "muslim"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.2362365,
+     21.537689
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "node",
+    "osm_id": 11005547787,
+    "amenity": "hospital",
+    "email": "fms.clinic1@gmail.com",
+    "healthcare": "hospital",
+    "name": "مجمع طب العائلة المتخصص",
+    "name:ar": "مجمع طب العائلة المتخصص",
+    "name:en": "Family Medicine Speciality Center",
+    "twitter": "https://twitter.com/FMSC_SA"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.2033708,
+     21.509484
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "node",
+    "osm_id": 11191584646,
+    "amenity": "school"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.1879906,
+     21.5777
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "node",
+    "osm_id": 11191584940,
+    "amenity": "school"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.1881921,
+     21.5754642
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "node",
+    "osm_id": 11191584941,
+    "amenity": "school"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.1868391,
+     21.5731796
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "node",
+    "osm_id": 11870738029,
+    "alt_name": "Mustashfá al Ḩamrā’-Ţawāri’;Mustashfá al Ḩamrā’;Al Hamra Hospital",
+    "alt_name:ar": "مستشفى الحمراء",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "مستشفى الحمراء-طوارئ",
+    "name:ar": "مستشفى الحمراء-طوارئ",
+    "name:en": "MustashfaalHamra'-Tawari'",
+    "source": "GNS"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.1668382,
+     21.5382888
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "node",
+    "osm_id": 11870950637,
+    "alt_name": "Aş Şafā Wāḩid",
+    "alt_name:ar": "الصفا واحد",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "الصفا 1",
+    "name:ar": "الصفا 1",
+    "name:en": "AsSafaWahid",
+    "source": "GNS"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.218347,
+     21.602159
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "node",
+    "osm_id": 11870951113,
+    "alt_name": "Ar Rabī‘ wa at Tawfīq",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "الربيع و التوفيق",
+    "name:ar": "الربيع و التوفيق",
+    "name:en": "ArRabi`waatTawfiq",
+    "source": "GNS"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.244051,
+     21.58136
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "node",
+    "osm_id": 11871307097,
+    "alt_name": "Mustashfá ‘Abd al Laţīf Jamīl-Ţawāri’",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "مستشفى عبد اللطيف جميل-طوارئ",
+    "name:ar": "مستشفى عبد اللطيف جميل-طوارئ",
+    "name:en": "Mustashfa`AbdalLatifJamil-Tawari'",
+    "source": "GNS"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.20582,
+     21.597114
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "node",
+    "osm_id": 11871539774,
+    "alt_name": "Aş Şafā Ithnān",
+    "alt_name:ar": "الصفا إثنان",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "الصفا 2",
+    "name:ar": "الصفا 2",
+    "name:en": "AsSafaIthnan",
+    "source": "GNS"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.204583,
+     21.577319
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "node",
+    "osm_id": 11871652607,
+    "alt_name": "Majma‘ Khālid aţ Ţibbī Ithnān-Ţawāri’",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "مجمع خالد الطبي 2-طوارئ",
+    "name:ar": "مجمع خالد الطبي 2-طوارئ",
+    "name:en": "Majma`KhalidatTibbiIthnan-Tawari'",
+    "source": "GNS"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.2292801,
+     21.5831276
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "node",
+    "osm_id": 13473828514,
+    "addr:city": "جدة",
+    "addr:postcode": "23453",
+    "addr:street": "طريق الامير متعب بن عبدالعزيز، الصفا، جدة 23453",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "healthcare:speciality": "dermatology;dental_oral_maxillo_facial_surgery",
+    "name": "عيادات الصفوة البلاتينية",
+    "operator": "عيادات الصفوة البلاتينية",
+    "operator:type": "private"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.2107213,
+     21.572016
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "node",
+    "osm_id": 13628750458,
+    "amenity": "school",
+    "name": "Novel International School",
+    "wheelchair": "limited"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.2270395,
+     21.5605448
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "node",
+    "osm_id": 13628750459,
+    "amenity": "school",
+    "isced:level": "0;1;2;3",
+    "name": "Al Corniche International School",
+    "name:ar": "مدرسة الكورنيش العالمية",
+    "name:en": "Al Corniche International School",
+    "school:gender": "male",
+    "wheelchair": "limited"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.2266257,
+     21.5609907
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "node",
+    "osm_id": 13691364101,
+    "amenity": "hospital",
+    "name": "مجمع الزقزوق الطبي العام",
+    "name:en": "maqtab Al Zerqazooq Istaqdam",
+    "opening_hours": "24/7",
+    "phone": "0126717786"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.2093759,
+     21.5368202
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "node",
+    "osm_id": 13694035001,
+    "amenity": "hospital",
+    "opening_hours": "24/7"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.2165484,
+     21.5082263
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "node",
+    "osm_id": 13716724702,
+    "amenity": "school",
+    "check_date": "2026-04-08",
+    "education": "school",
+    "name": "مؤسسة دار فجر الإسلام الأهلية للبنين القسم الابتدائي"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.1499577,
+     21.5825753
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "node",
+    "osm_id": 13730420501,
+    "amenity": "school",
+    "check_date": "2026-04-14",
+    "education": "school",
+    "name": "المدرسة السابعة والعشرون الثانوية"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.1502669,
+     21.5781936
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "node",
+    "osm_id": 13763225408,
+    "amenity": "school",
+    "name": "مدارس البيان النموذجية مرحلة رياض الاطفال",
+    "name:en": "Albayan Model School Kindergarten"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.1698059,
+     21.5493972
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "node",
+    "osm_id": 13763225604,
+    "amenity": "school",
+    "contact:instagram": "albayan.jed",
+    "contact:twitter": "albayan_jed",
+    "email": "info@albayan.edu.sa",
+    "name": "مدارس البيان النموذجية للبنات",
+    "name:en": "Albayan Model School for Girls",
+    "phone": "0126611004",
+    "website": "https://albayan.edu.sa/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.1691976,
+     21.5498953
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "node",
+    "osm_id": 13820887601,
+    "amenity": "hospital",
+    "name": "مركز صحي النعيم",
+    "name:en": "Alnaeim Healthcare Center",
+    "opening_hours": "Su-Th 09:00-00:00",
+    "phone": "0126111525;0515313972",
+    "website": "https://www.moh.gov.sa/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.1446257,
+     21.617104
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "node",
+    "osm_id": 13951277501,
+    "addr:street": "عبدالرحمن السويداء",
+    "amenity": "hospital",
+    "name": "مركز صحي المروة"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.1887403,
+     21.6188922
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "node",
+    "osm_id": 14270344401,
+    "amenity": "school",
+    "name": "مدرسة اشبيليا العالمية"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.1873423,
+     21.5067305
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "node",
+    "osm_id": 14372100501,
+    "addr:postcode": "23218",
+    "addr:street": "Khaled Ibn Al Walid, Al Sharafeyah, Jeddah 23218, Saudi Arabia",
+    "amenity": "hospital",
+    "name": "Arabic, English,Hindi,Urdu",
+    "opening_hours": "24/7",
+    "phone": "+966 9200 15888",
+    "website": "http://abeergroup.com"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.1874476,
+     21.5035696
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "node",
+    "osm_id": 14372100502,
+    "addr:postcode": "23218",
+    "addr:street": "Khaled Ibn Al Walid, Al Sharafeyah, Jeddah 23218, Saudi Arabia",
+    "amenity": "hospital",
+    "name": "Abeer Medical Center, Sharafiyah, Jeddah",
+    "opening_hours": "24/7",
+    "phone": "+966 9200 15888",
+    "website": "http://abeergroup.com"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.1874476,
+     21.5035696
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 136696714,
+    "amenity": "hospital",
+    "emergency": "no",
+    "name": "SABA Clinics"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.1424764,
+     21.6108639
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 157407184,
+    "alt_name": "IMC",
+    "amenity": "hospital",
+    "building": "yes",
+    "email": "imcinfo@imc.med.sa",
+    "healthcare": "hospital",
+    "jpoi_id": "100156",
+    "layer": "1",
+    "name": "المركز الطبي الدولي",
+    "name:ar": "المركز الطبي الدولي",
+    "name:en": "International Medical Center",
+    "phone": "+966 12 650 9000",
+    "wikidata": "Q4119998",
+    "wikipedia": "ar:مستشفى المركز الطبي الدولي"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.174666,
+     21.5137238
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 160123150,
+    "amenity": "school",
+    "name:en": "Reef Jeddah International School"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.1869226,
+     21.508624
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 162226479,
+    "amenity": "hospital",
+    "emergency": "yes",
+    "healthcare": "hospital",
+    "name": "مستشفي الملك فهد العام",
+    "name:ar": "مستشفي الملك فهد العام",
+    "name:en": "King Fahad General Hospital",
+    "phone": "+966 12 660 6111"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.1668928,
+     21.5434938
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 209846140,
+    "amenity": "school",
+    "building": "school",
+    "contact:facebook": "https://www.facebook.com/pisjesofficial1/",
+    "contact:instagram": "https://www.instagram.com/pisjesofficial1/",
+    "name": "Pakistan International School Jeddah",
+    "phone": "+966-12 673 8531",
+    "source": "Survey",
+    "website": "https://pisjes.edu.sa/",
+    "wikidata": "Q7125611"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.2055728,
+     21.5546859
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 209851496,
+    "amenity": "school",
+    "name": "Madrassah Saad-Bin-Abi-Waqas"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.2063856,
+     21.5570233
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 209874062,
+    "amenity": "hospital",
+    "emergency": "yes",
+    "healthcare": "hospital",
+    "name": "Al-Walada Hospital"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.2074353,
+     21.5577355
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 285483832,
+    "amenity": "hospital",
+    "emergency": "yes",
+    "healthcare": "hospital",
+    "name": "مستشفى الملك فيصل التخصصي ومركز الأبحاث-المبنى الرئيسي",
+    "name:en": "King Faisal Specialist Hospital & Research Center",
+    "operator": "مستشفى الملك فيصل التخصصي ومركز الأبحاث",
+    "operator:type": "government",
+    "website": "https://www.kfshrc.edu.sa/",
+    "wikidata": "Q6856599",
+    "wikipedia": "en:King Faisal Specialist Hospital and Research Centre"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.1484736,
+     21.5588813
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 404702565,
+    "amenity": "school"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.2368685,
+     21.5116521
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 404702566,
+    "amenity": "school"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.2368482,
+     21.5111318
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 405638559,
+    "amenity": "school",
+    "fee": "yes",
+    "name": "مدارس التعاون الأهلية"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.2400312,
+     21.502079
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 405638561,
+    "amenity": "school",
+    "name": "مدارس التعاون الأهلية"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.2402361,
+     21.5022738
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 405638562,
+    "amenity": "school",
+    "name": "مدارس التعاون الأهلية"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.2398417,
+     21.5022687
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 407175627,
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "مركز صحي السيلمانية"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.2400425,
+     21.5074992
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 407175629,
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "مستشفى شرق جدة"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.2417325,
+     21.5085315
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 407182536,
+    "amenity": "school"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.2466769,
+     21.502483
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 407241317,
+    "amenity": "school"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.245121,
+     21.5066818
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 407241319,
+    "amenity": "school"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.2446679,
+     21.506667
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 407241320,
+    "amenity": "school"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.2441141,
+     21.5066571
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 407256450,
+    "amenity": "school"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.2351066,
+     21.5154457
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 407256451,
+    "amenity": "school"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.2350009,
+     21.5150855
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 407256452,
+    "amenity": "school"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.2354105,
+     21.5150505
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 408894872,
+    "amenity": "school"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.2231051,
+     21.5728523
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 409048054,
+    "amenity": "school"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.2352382,
+     21.5152366
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 412794431,
+    "amenity": "school",
+    "grades": "10-12",
+    "isced:level": "3",
+    "name": "ثانوية نهاوند"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.2494366,
+     21.5042666
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 414167953,
+    "amenity": "school"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.2210071,
+     21.5776447
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 436534577,
+    "alt_name": "Dr. Ghassan N. Pharaon Hospital",
+    "alt_name:en": "GNP",
+    "amenity": "hospital",
+    "building": "hospital",
+    "check_date": "2026-09-21",
+    "healthcare": "hospital",
+    "name": "مستشفى الشبكة الشاملة",
+    "name:ar": "مستشفى الشبكة الشاملة",
+    "name:en": "Dr. Ghassan N. Pharaon Hospital",
+    "phone": "+966126823200;+966126906200",
+    "website": "https://gnp.com.sa/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.1435431,
+     21.5945878
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 469029237,
+    "amenity": "school"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.1649486,
+     21.5291974
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 514998587,
+    "amenity": "school"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.1792095,
+     21.5641135
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 547545998,
+    "amenity": "school",
+    "name": "Nobles International School",
+    "website": "https://www.nis-jeddah.com/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.1596847,
+     21.5558769
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 549721273,
+    "amenity": "school",
+    "name": "مدرسة حكيم بن حزام الإبتدائية"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.2365649,
+     21.5210484
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 549961193,
+    "amenity": "school",
+    "check_date": "2025-04-07",
+    "name": "مدرسة إبن حبان الثانوية",
+    "name:en": "Ibn Hibban Secondary School ( High School )"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.2331688,
+     21.5193636
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 607712703,
+    "amenity": "school"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.2251887,
+     21.5158538
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 701393437,
+    "amenity": "school",
+    "name": "Thamer International School",
+    "website": "https://www.tis.edu.sa/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.155912,
+     21.5975549
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 962333819,
+    "amenity": "school",
+    "name": "مدرسة عمير بن وهب الإبتدائية"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.1702889,
+     21.5947757
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1044701914,
+    "addr:city": "Jeddah",
+    "addr:housenumber": "5013",
+    "addr:street": "Al Nama St.",
+    "amenity": "school",
+    "grades": "0-12",
+    "name": "International Philippine School in Jeddah",
+    "website": "https://ipsjksa.com/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.2028612,
+     21.5449977
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1053573405,
+    "amenity": "school",
+    "barrier": "wall",
+    "education": "school"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.167107,
+     21.5553175
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1102940203,
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "مستشفى الملك فهد للقوات المسلحة",
+    "name:en": "King Fahad Armed Forces Hospital",
+    "website": "https://kfafh.med.sa/",
+    "wikidata": "Q20424834",
+    "wikipedia": "ar:مستشفى الملك فهد للقوات المسلحة"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.1261968,
+     21.5422714
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1138298089,
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "عمارة الصفاء",
+    "operator": "Ministry of Health",
+    "operator:type": "public"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.2143818,
+     21.5797877
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1144482914,
+    "amenity": "school",
+    "contact:facebook": "https://www.facebook.com/EKHAASCHOOLS",
+    "contact:instagram": "https://www.instagram.com/alekhaaschools/",
+    "contact:twitter": "https://x.com/alekhaa_schools",
+    "contact:whatsapp": "+966509266444",
+    "email": "info@alekhaaschools.com",
+    "name": "مدارس الإخاء الأهلية قسم البنين",
+    "name:en": "Al Ekhaa Private Schools Boys Section",
+    "phone": "+966 92 003 5977",
+    "school:gender": "male",
+    "website": "https://alekhaaschools.com/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.1812104,
+     21.5497722
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1159257406,
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "مستشفى العبير",
+    "name:en": "Al Abeer Hospital"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.1874595,
+     21.5035752
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1159257407,
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "مركز الراقون الطبي",
+    "name:ar": "مركز الراقون الطبي",
+    "name:en": "Al Raqoun Medical Center"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.2047099,
+     21.5179399
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1159257408,
+    "amenity": "hospital",
+    "email": "abuzindah_hospital@yahoo.com",
+    "healthcare": "hospital",
+    "name": "مستشفى أبو زنادة",
+    "name:ar": "مستشفى أبو زنادة",
+    "name:en": "Abuzinadah Hospital",
+    "phone": "+966126510652"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.1796716,
+     21.508566
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1159296888,
+    "alt_name:en": "UDH",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "مستشفى الأطباء المتحدون",
+    "name:ar": "مستشفى الأطباء المتحدون",
+    "name:en": "United Doctors Hospital",
+    "website": "https://udh.sa"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.1663891,
+     21.5055859
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1159296889,
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "مركز المساعدية التخصصي"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.1650715,
+     21.5426323
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1159296891,
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "مستشفى بقشان",
+    "name:ar": "مستشفى بقشان",
+    "name:en": "Bugshan Hospital",
+    "website": "https://bugshan.med.sa"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.1762287,
+     21.5573364
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1159296893,
+    "amenity": "hospital",
+    "check_date": "2026-01-10",
+    "healthcare": "hospital",
+    "name": "مجمع العبير الطبي",
+    "name:ar": "مجمع العبير الطبي",
+    "name:en": "Abeer Medical Center",
+    "website": "https://www.abeergroup.com/ksa"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.1697507,
+     21.6049383
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1181070043,
+    "amenity": "school"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.1827282,
+     21.5480772
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1184809465,
+    "amenity": "school",
+    "gender": "women",
+    "grades": "7-9",
+    "name": "المدرسة الثامنة عشر المتوسطة",
+    "name:ar": "المدرسة الثامنة عشر المتوسطة",
+    "operator": "وزارة التعليم",
+    "operator:type": "government"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.1658322,
+     21.5649862
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1184809466,
+    "amenity": "school"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.1659615,
+     21.5645693
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1184809467,
+    "amenity": "school"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.1268635,
+     21.610124
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1184809468,
+    "amenity": "hospital",
+    "facebook": "https://www.facebook.com/SkyClinicSa",
+    "healthcare": "hospital",
+    "name": "عيادات سكاي التخصصية",
+    "name:ar": "عيادات سكاي التخصصية",
+    "twitter": "https://twitter.com/skyclinicsa",
+    "website": "https://www.skyclinic.net/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.1228124,
+     21.5711187
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1195196003,
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "الشؤون الصحية بوزارة الحرس الوطني",
+    "operator": "MNGHA",
+    "short_name": "MNGHA",
+    "website": "https://www.ngha.med.sa"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.2243966,
+     21.5369506
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1208535707,
+    "addr:city": "جده",
+    "amenity": "school",
+    "contact:tiktok": "https://www.tiktok.com/@amrhigh.school",
+    "contact:twitter": "https://twitter.com/MOE_JDH_31_1171",
+    "denomination": "sunni",
+    "grades": "10-12",
+    "name": "مدرسة عمورية الثانوية",
+    "religion": "muslim",
+    "wheelchair": "yes"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.1841177,
+     21.5934462
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1209965221,
+    "amenity": "school",
+    "barrier": "wall",
+    "contact:facebook": "https://www.facebook.com/people/%D9%85%D8%AC%D9%85%D8%B9-%D8%A7%D9%84%D8%A3%D9%85%D9%8A%D8%B1-%D8%B3%D9%84%D8%B7%D8%A7%D9%86-%D8%A7%D9%84%D8%AA%D8%B9%D9%84%D9%8A%D9%85%D9%8A-%D8%A8%D8%AC%D8%AF%D8%A9/100027451796158/",
+    "contact:instagram": "https://www.instagram.com/sultan.e.1435/",
+    "grades": "10-12",
+    "name": "مجمع الأمير سلطان التعليمي - القسم الثانوي",
+    "phone": "+966 55 741 1272"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.1465887,
+     21.5890976
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1209965222,
+    "amenity": "school",
+    "barrier": "wall",
+    "contact:facebook": "https://www.facebook.com/people/%D9%85%D8%AC%D9%85%D8%B9-%D8%A7%D9%84%D8%A3%D9%85%D9%8A%D8%B1-%D8%B3%D9%84%D8%B7%D8%A7%D9%86-%D8%A7%D9%84%D8%AA%D8%B9%D9%84%D9%8A%D9%85%D9%8A-%D8%A8%D8%AC%D8%AF%D8%A9/100027451796158/",
+    "contact:instagram": "https://www.instagram.com/sultan.e.1435/",
+    "grades": "7-9",
+    "name": "مجمع الأمير سلطان التعليمي - القسم المتوسط",
+    "phone": "++966 55 741 1272"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.1460952,
+     21.5899405
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1209965223,
+    "amenity": "school",
+    "barrier": "wall",
+    "contact:facebook": "https://www.facebook.com/people/%D9%85%D8%AC%D9%85%D8%B9-%D8%A7%D9%84%D8%A3%D9%85%D9%8A%D8%B1-%D8%B3%D9%84%D8%B7%D8%A7%D9%86-%D8%A7%D9%84%D8%AA%D8%B9%D9%84%D9%8A%D9%85%D9%8A-%D8%A8%D8%AC%D8%AF%D8%A9/100027451796158/",
+    "contact:instagram": "https://www.instagram.com/sultan.e.1435/",
+    "grades": "0-6",
+    "name": "مجمع الأمير سلطان التعليمي - القسم الابتدائي",
+    "phone": "+966 55 741 1272"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.1459526,
+     21.591044
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1209965224,
+    "amenity": "school",
+    "barrier": "wall",
+    "contact:facebook": "https://www.facebook.com/alnoooor.school/",
+    "name": "مجمع النور التعليمي",
+    "name:en": "AL Noor school"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.1472408,
+     21.5873693
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1242846098,
+    "amenity": "school",
+    "barrier": "wall",
+    "contact:twitter": "https://twitter.com/MOE_JDH_31_1164",
+    "denomination": "sunni",
+    "grades": "10-12",
+    "name": "مدرسة إشبيلية الثانوية",
+    "name:en": "Ishbiliyah High School",
+    "religion": "muslim",
+    "wheelchair": "yes"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.1355884,
+     21.5932939
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1242846101,
+    "amenity": "school",
+    "barrier": "wall",
+    "check_date": "2026-09-09",
+    "contact:twitter": "https://twitter.com/MOE_JDH_31_1105",
+    "denomination": "sunni",
+    "grades": "7-9",
+    "name": "مدرسة الأنصار المتوسطة",
+    "name:en": "Alansar Middle School",
+    "religion": "muslim"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.1360799,
+     21.5932838
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1266100371,
+    "amenity": "school",
+    "barrier": "wall",
+    "name": "متوسطة وثانوية الموهبات"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.1497922,
+     21.5782607
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1267150314,
+    "addr:housenumber": "3515",
+    "addr:postcode": "23524",
+    "amenity": "school",
+    "contact:youtube": "https://www.youtube.com/channel/UCmKLP4lDkOOqheSx5jup0NA",
+    "name": "مكتب التعليم بشمال جدة",
+    "phone": "+966126915660",
+    "school:gender": "male"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.1522486,
+     21.5991139
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1274283185,
+    "amenity": "school",
+    "contact:facebook": "https://www.facebook.com/cwis.saudiarabia",
+    "contact:instagram": "https://www.instagram.com/cwischools/",
+    "contact:phone": "+966 12 6912617",
+    "contact:snapchat": "https://t.snapchat.com/haCTcrXW",
+    "contact:twitter": "https://twitter.com/cwischool",
+    "contact:youtube": "https://www.youtube.com/@cwis814",
+    "email": "info@cws.edu.sa",
+    "name": "مدارس عالم الصغار العالمية",
+    "name:en": "Children`s World International Schools",
+    "phone": "+966 12 6838990",
+    "phone_1": "+966126838991",
+    "website": "https://cwis.edu.sa/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.1651749,
+     21.5709473
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1279061878,
+    "amenity": "school",
+    "barrier": "wall"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.1462275,
+     21.6001255
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1279061887,
+    "amenity": "school",
+    "barrier": "wall",
+    "grades": "7-9",
+    "name": "المتوسطة الثامنة والسبعون",
+    "school:gender": "female"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.1462748,
+     21.6008989
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1279061888,
+    "amenity": "school",
+    "barrier": "wall"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.1468461,
+     21.6010776
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1279061889,
+    "amenity": "school",
+    "barrier": "wall"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.1474256,
+     21.6012253
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1279061890,
+    "amenity": "school",
+    "barrier": "wall",
+    "contact:youtube": "https://www.youtube.com/channel/UC0PYBw13Pzt04uC9jMhMv4A",
+    "grades": "0-6",
+    "name": "مدرسة اليمامة الابتدائية"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.1519604,
+     21.6026069
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1279061892,
+    "amenity": "school",
+    "barrier": "wall",
+    "grades": "1-6",
+    "name": "مدرسة شعبة بن عياش الابدائية"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.1514945,
+     21.6024853
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1279061893,
+    "amenity": "school",
+    "barrier": "wall",
+    "grades": "1-6",
+    "name": "الطفولة المبكرة بمجمع السلامة الابتدائية"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.1527301,
+     21.6027858
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1309885272,
+    "amenity": "school",
+    "name": "المدارس المتقدمة للتعلم الذكي"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.1350614,
+     21.5953865
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1315700822,
+    "addr:city": "جدة",
+    "addr:postcode": "23522",
+    "addr:street": "شارع فهد بن زعير",
+    "amenity": "school",
+    "contact:facebook": "https://www.facebook.com/jesseraltaleeminternationalschool/",
+    "contact:instagram": "https://instagram.com/jaisjais19",
+    "name": "مدرسة جسر التعليم العالمية",
+    "name:en": "Jesser Al-Taleem International School",
+    "operator": "Al Moktashef International Schools",
+    "operator:type": "private",
+    "website": "https://misedu.net"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.1262159,
+     21.605202
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1317116048,
+    "alt_name:en": "KKIS",
+    "amenity": "school",
+    "contact:facebook": "https://www.facebook.com/kkischools/",
+    "contact:instagram": "https://instagram.com/kkischools",
+    "contact:linkedin": "https://www.linkedin.com/company/kkischool",
+    "contact:twitter": "https://twitter.com/kki_schools",
+    "contact:youtube": "https://www.youtube.com/channel/UCjGD2vDRFL5qGetSrADt2CA",
+    "email": "info@kki.edu",
+    "name": "مدارس الفرسان المعرفة العالمية",
+    "name:en": "Knights of Knowledge International Schools",
+    "phone": "+966 92000 5401",
+    "website": "https://www.kkischools.com/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.1796544,
+     21.5929334
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1381243832,
+    "alt_name": "Mustashfá az Zahrā’",
+    "amenity": "hospital",
+    "building": "hospital",
+    "emergency": "yes",
+    "healthcare": "hospital",
+    "healthcare:speciality": "surgery;emergency;paediatrics;gynaecology;neurology;cardiology;internal;physiatry;ophthalmology;urology;otolaryngology;orthopaedics;neurosurgery;intensive;dental_oral_maxillo_facial_surgery",
+    "name": "مستشفى الزهراء",
+    "name:ar": "مستشفى الزهراء",
+    "name:en": "Al-Zahraa Hospital",
+    "opening_hours": "24/7",
+    "phone": "92022422",
+    "source": "microsoft/BuildingFootprints;GNS",
+    "website": "https://alzahraa-hg.com/jeddah-branch/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.1418013,
+     21.58889
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1383029650,
+    "amenity": "school",
+    "barrier": "wall",
+    "check_date": "2026-11-09",
+    "grades": "7-9",
+    "name": "مدرسة متوسطة الثالثة والثلاثون"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.1353851,
+     21.5891156
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1383029651,
+    "amenity": "school",
+    "barrier": "wall",
+    "grades": "1-6"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.1353285,
+     21.5884516
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1413579196,
+    "amenity": "school",
+    "name": "مدارس دار الفرسان",
+    "website": "https://daralforsan.edu.sa/portal/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.1483744,
+     21.6014426
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1436230390,
+    "amenity": "school"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.1239403,
+     21.6012408
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1437061698,
+    "amenity": "school",
+    "mapillary": "1296421374755500",
+    "name": "مدارس جزيرة العلوم العالمية",
+    "name:en": "Jazeerat Al Uloom Intl Schools"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.1548758,
+     21.6051864
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1437061699,
+    "amenity": "school",
+    "name": "مدارس جزيرة العلوم العالمية",
+    "name:en": "Jazeerat Al Uloom Intl Schools"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.1543626,
+     21.6063108
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1442583392,
+    "amenity": "school"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.1896141,
+     21.6158847
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1442583393,
+    "amenity": "school"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.1891774,
+     21.6156846
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1442584786,
+    "amenity": "school"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.1942738,
+     21.6118878
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1442693110,
+    "amenity": "school"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.188992,
+     21.600249
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1493893322,
+    "amenity": "school"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.1791501,
+     21.5963369
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1499663182,
+    "amenity": "school",
+    "barrier": "wall",
+    "education": "school"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.19212,
+     21.5869062
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1501164303,
+    "amenity": "school",
+    "barrier": "wall",
+    "education": "school"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.2209445,
+     21.5481421
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1501164304,
+    "amenity": "school",
+    "barrier": "wall",
+    "education": "school"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.2215384,
+     21.5482515
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1501164305,
+    "amenity": "school",
+    "barrier": "wall",
+    "education": "school"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.2210855,
+     21.5488686
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1501171658,
+    "amenity": "school",
+    "barrier": "wall",
+    "education": "school"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.2201997,
+     21.5583106
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1501171664,
+    "amenity": "school",
+    "barrier": "wall",
+    "education": "school"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.2201186,
+     21.5587709
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1503447936,
+    "amenity": "school",
+    "education": "school",
+    "name": "المدرسة السابعة والثمانون الابتدائيه"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.1573002,
+     21.5524666
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1512667252,
+    "amenity": "school",
+    "education": "school",
+    "name": "Jeddah International School"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.1316311,
+     21.5604408
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1512781007,
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Nava Clinics"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.121594,
+     21.5963068
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1515586820,
+    "amenity": "school",
+    "barrier": "wall",
+    "education": "school"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.1650145,
+     21.6175881
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1515586822,
+    "amenity": "school",
+    "barrier": "wall",
+    "education": "school"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.1646384,
+     21.6174831
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1517803663,
+    "addr:postcode": "23218",
+    "alt_name:en": "BISESJ",
+    "amenity": "school",
+    "contact:facebook": "https://www.facebook.com/bisesjedsa",
+    "contact:instagram": "https://www.instagram.com/bisesjsa/",
+    "contact:youtube": "https://www.youtube.com/@bisesjsa",
+    "education": "school",
+    "email": "principal@bisesjsa.com",
+    "name": "Bangladesh International School - English Section Jeddah",
+    "name:ar": "المدرسة البنجلاديشية العالمية - قسم الإجليزي جدة",
+    "phone": "+966 12 663 8992",
+    "website": "https://bisesjsa.com/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.1832729,
+     21.5239356
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1536946633,
+    "addr:housenumber": "6928",
+    "addr:postcode": "23416",
+    "addr:street": "طريق الملك عبد العزيز",
+    "amenity": "hospital",
+    "contact:facebook": "https://www.facebook.com/KCHLSaudi/",
+    "contact:instagram": "https://www.instagram.com/kchlsaudi/",
+    "contact:linkedin": "https://www.linkedin.com/company/king-s-college-hospital-jeddah/",
+    "contact:twitter": "https://x.com/KCHLSAUDI",
+    "contact:whatsapp": "https://wa.me/966545907276",
+    "emergency": "yes",
+    "healthcare": "hospital",
+    "healthcare:speciality": "anaesthetics;cardiology;cardiothoracic_surgery;dentistry;dermatology;emergency;endocrinology;gastroenterology;internal;pathology;neonatology;nephrology;neurology;neurosurgery;gynaecology;oncology;orthodontics;plastic_surgery;psychiatry;pulmonology;urology",
+    "name": "مستشفى كينغز كوليدج لندن",
+    "name:ar": "مستشفى كينغز كوليدج لندن",
+    "name:en": "King's College Hospital London",
+    "phone": "+966 92 006 6668",
+    "website": "https://kch.sa"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.1260218,
+     21.5809195
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1540716436,
+    "amenity": "school",
+    "barrier": "wall",
+    "education": "school"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.2474286,
+     21.5518271
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1540716461,
+    "amenity": "school",
+    "barrier": "wall",
+    "education": "school"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.2477725,
+     21.5694942
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1550409855,
+    "amenity": "school",
+    "grades": "0-6",
+    "name": "مدرسة تراعم الزهور العالمية"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.1870558,
+     21.528375
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1550566527,
+    "amenity": "school",
+    "grades": "7-9",
+    "name": "مدرسة ابن كثير المتوسطة"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.1843011,
+     21.5338575
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1550566528,
+    "amenity": "school",
+    "contact:facebook": "https://www.facebook.com/heraschool/3",
+    "contact:instagram": "https://www.instagram.com/heraintschool/",
+    "email": "info@hera-school.com",
+    "name": "مدرسة حراء العالمية",
+    "name:en": "Hera International School",
+    "phone": "+966 54 877 5975;+966 53 315 4684;+966 53 052 2332",
+    "website": "https://www.hera-school.com/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.1843839,
+     21.5334193
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1552795188,
+    "amenity": "school",
+    "barrier": "wall"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.184577,
+     21.5264978
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1558936913,
+    "amenity": "school",
+    "contact:facebook": "https://www.facebook.com/dahschools",
+    "contact:instagram": "https://www.instagram.com/dahschools/",
+    "contact:snapchat": "https://www.snapchat.com/add/dahschools?share_id=OUZENzgzQTYtQ0QyQy00NjY0LUI0NUQtRjc3OEUyNTRGRUJD&locale=ar_SA@calendar=gregorian&sid=c58dec5523b041d8b830bdd248bef6c3",
+    "contact:twitter": "https://twitter.com/dahschools?s=20",
+    "contact:whatsapp": "https://wa.me/966554431884",
+    "email": "info@dhs.edu.sa",
+    "name": "مدارس دار الحنان",
+    "name:ar": "مدارس دار الحنان",
+    "name:en": "Dar Al Hanan Schools",
+    "phone": "+966 92 002 9669",
+    "website": "https://dhs.edu.sa/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.1347481,
+     21.6041381
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1559866619,
+    "amenity": "school",
+    "check_date": "2026-09-16",
+    "check_date:opening_hours": "2026-09-16",
+    "contact:instagram": "andaluschool",
+    "education": "school",
+    "name": "مدارس الأندلس الأهلية",
+    "name:en": "Al-Andalus Private Schools",
+    "opening_hours": "Su-Th 07:00-14:30",
+    "phone": "+966 92 002 0282",
+    "website": "https://as.edu.sa/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.1336175,
+     21.6013505
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1562531947,
+    "amenity": "school",
+    "barrier": "wall"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.2247734,
+     21.6064078
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1562531958,
+    "amenity": "school",
+    "barrier": "wall"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.2298951,
+     21.607921
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1562531974,
+    "amenity": "school",
+    "barrier": "wall"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.2343688,
+     21.6092082
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1562531977,
+    "amenity": "school",
+    "barrier": "wall"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.2339549,
+     21.6091224
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "way",
+    "osm_id": 1562758019,
+    "amenity": "school",
+    "barrier": "wall",
+    "education": "school"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.2457338,
+     21.5793668
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+.head { display: flex; justify-content: space-between; align-items: center; margin-bottom: 4px; }
+.small { font-size: .8rem; }
+p { margin: 0 0 6px; }
+.row { display: flex; gap: 8px; .btn { flex: 1; } }
+
+h3 { font-size: .95rem; margin: 14px 0 2px; color: var(--brand); }
+
+dl { display: grid; grid-template-columns: auto 1fr; gap: 4px 10px; margin: 0 0 6px; font-size: .88rem;
+  dt { color: var(--muted); } dd { margin: 0; font-weight: 600; } }
+
+.filters { display: flex; gap: 8px; margin-bottom: 8px;
+  label { flex: 1; display: flex; flex-direction: column; gap: 4px; font-size: .85rem; font-weight: 600; } }
+
+.requests { list-style: none; margin: 0 0 12px; padding: 0;
+  li { border-bottom: 1px solid var(--border); }
+  .empty { padding: 12px 0; }
+  button { width: 100%; text-align: start; background: none; border: 0; padding: 8px 6px; cursor: pointer; font: inherit; color: inherit;
+    display: grid; grid-template-columns: auto 1fr; gap: 2px 8px; align-items: center; border-radius: 6px;
+    &:hover, &.active { background: #f1f5f9; } }
+  .badge { grid-row: span 2; }
+  .sub { color: var(--muted); font-size: .8rem; }
+}
+
+.card.conflict {
+  display: block; width: 100%; text-align: start; background: #fff; border: 1px solid #fecaca; border-inline-start: 4px solid var(--danger);
+  border-radius: 8px; padding: 8px 10px; margin: 6px 0; cursor: pointer; font: inherit; color: inherit;
+  &.selected { background: #fef2f2; box-shadow: 0 0 0 2px #fca5a5; }
+  .title { font-weight: 700; font-size: .88rem; }
+  .facts { display: flex; gap: 12px; flex-wrap: wrap; font-size: .82rem; color: #334155; margin-top: 4px; }
+  .dig-once { margin-top: 6px; background: #f0fdf4; border-radius: 6px; padding: 6px 8px; font-size: .82rem; color: #166534; }
+}
+
+.review { border-top: 2px solid var(--border); margin-top: 12px; padding-top: 10px; display: flex; flex-direction: column; gap: 8px;
+  label { display: flex; flex-direction: column; gap: 4px; font-size: .85rem; font-weight: 600; } }
+
+.sync { border-top: 2px solid var(--border); padding-top: 10px; display: flex; flex-direction: column; gap: 8px; }
