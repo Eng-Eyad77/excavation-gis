@@ -47,7 +47,7 @@ INSERT INTO sensitive_sites (name, site_type, source, external_id, geom) VALUES 
 INSERT INTO sensitive_sites (name, site_type, source, external_id, geom) VALUES ('مدرسة تراعم الزهور العالمية', 'School', 'Seed', 'way/1550409855', SDO_GEOMETRY('POINT (39.1870558 21.528375)', 4326));
 
 -- ---- Paved road (بيانات تجريبية: paving date 2026-07-15) — sub-segment of the demo street
-INSERT INTO paved_roads (name, paved_date, geom) VALUES ('شارع خالد بن الوليد - تاريخ السفلتة تجريبي', DATE '2026-07-15',
+INSERT INTO paved_roads (name, paved_date, geom) VALUES ('شارع خالد بن الوليد', DATE '2026-07-15',
   SDO_GEOMETRY('LINESTRING (39.1863258 21.5123737, 39.1863684 21.511847, 39.186412 21.5113072, 39.1864216 21.5111888, 39.1864708 21.5106062, 39.1864817 21.5104709, 39.1865301 21.509869, 39.1865321 21.5098389, 39.1865634 21.509373, 39.1865968 21.5088728, 39.1866329 21.5083329, 39.18667 21.5077787, 39.1867106 21.5071755, 39.1867117 21.5071639, 39.1868093 21.5060948)', 4326));
 
 -- ---- Existing excavations (بيانات تجريبية)

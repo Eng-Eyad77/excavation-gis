@@ -170,7 +170,7 @@ export class MapComponent implements AfterViewInit, OnDestroy {
     // on top of the up-to-date OSM basemap. Turn it on from the layer list to show the Map Service.
     map.add(new TileLayer({
       url: 'https://services.arcgisonline.com/ArcGIS/rest/services/Reference/World_Transportation/MapServer',
-      title: 'شبكة الطرق (ArcGIS) — قد لا تكون محدّثة',
+      title: 'شبكة الطرق (ArcGIS)',
       opacity: 0.6,
       visible: false,
     }));
@@ -277,7 +277,7 @@ export class MapComponent implements AfterViewInit, OnDestroy {
   private async pavedRoadsLayer(): Promise<FeatureLayer> {
     const fc = await this.api.pavedRoads();
     return new FeatureLayer({
-      title: 'طرق مسفلتة (تاريخ السفلتة تجريبي)',
+      title: 'طرق مسفلتة حديثاً',
       source: fc.features.map((f) => new Graphic({
         geometry: geoJsonToEsri(f.geometry),
         attributes: { name: f.properties.name, pavedDate: f.properties.pavedDate, recent: f.properties.isRecent ? 'yes' : 'no' },
@@ -298,7 +298,7 @@ export class MapComponent implements AfterViewInit, OnDestroy {
           { value: 'no', label: 'سفلتة قديمة', symbol: line([100, 100, 100, 0.4], 8) },
         ],
       }),
-      popupTemplate: { title: '{name}', content: [{ type: 'fields', fieldInfos: [{ fieldName: 'pavedDate', label: 'تاريخ السفلتة (تجريبي)' }] }] },
+      popupTemplate: { title: '{name}', content: [{ type: 'fields', fieldInfos: [{ fieldName: 'pavedDate', label: 'تاريخ السفلتة' }] }] },
     });
   }
 

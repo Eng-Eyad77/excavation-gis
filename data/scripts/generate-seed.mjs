@@ -370,7 +370,7 @@ END;
 ${siteRows.map((s) => `INSERT INTO sensitive_sites (name, site_type, source, external_id, geom) VALUES (${q(s.name)}, ${q(s.siteType)}, 'Seed', ${q(s.externalId)}, SDO_GEOMETRY(${q(wktPoint(s.coord))}, 4326));`).join('\n')}
 
 -- ---- Paved road (${SAMPLE}: paving date 2026-07-15) — sub-segment of the demo street
-INSERT INTO paved_roads (name, paved_date, geom) VALUES (${q(`${streetName} - تاريخ السفلتة تجريبي`)}, DATE '2026-07-15',
+INSERT INTO paved_roads (name, paved_date, geom) VALUES (${q(streetName)}, DATE '2026-07-15',
   SDO_GEOMETRY(${q(wktLine(pavedLine))}, 4326));
 
 -- ---- Existing excavations (${SAMPLE})
